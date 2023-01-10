@@ -127,3 +127,6 @@
   text-decoration: underline;
 }
 
+.aboutMe {
+  min-height: 100vh;
+}
