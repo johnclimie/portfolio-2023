@@ -25,13 +25,17 @@ export default function Home() {
                 intro.txt
               </p>
 
-              <div className={styles.placeholder}></div>
+              <div className={styles.buttonSelectionFiller}>
+                <div className={styles.red}></div>
+                <div className={styles.yellow}></div>
+                <div className={styles.green}></div>
+              </div>
             </div>
 
             <div className={styles.introContent}>
               <h1>John Climie</h1>
               <h2>Full-Stack Web Developer</h2>
-              <div className='introLinks'>
+              <div className={styles.introLinks}>
                 <h2>About Me</h2>
                 <h2>My Work</h2>
                 <h2>Contact</h2>
