@@ -17,8 +17,6 @@
 .windowTop {
   width: 100%;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   background-color: #242424;
 }
 
@@ -28,23 +26,31 @@
 }
 
 .red {
-  width: 1rem;
-  height: 1rem;
-  background-color: red;
+  border-radius: 1rem;
+  width: .75rem;
+  height: .75rem;
+  background-color: #fe514e;
 }
 
 .yellow {
-  width: 1rem;
-  height: 1rem;
-  background-color: yellow;
+  border-radius: 1rem;
+  width: .75rem;
+  height: .75rem;
+  margin: 0rem .4rem;
+  background-color: #ffb805;
 }
 
 .green {
-  width: 1rem;
-  height: 1rem;
-  background-color: green;
+  border-radius: 1rem;
+  width: .75rem;
+  height: .75rem;
+  background-color: #04cd16;
 }
 
 .introContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: #2E2E2E;
 }

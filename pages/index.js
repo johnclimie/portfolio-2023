@@ -22,8 +22,6 @@ export default function Home() {
               </div>
 
               <p>intro.txt</p>
-
-              <div></div>
             </div>
 
             <div className={styles.introContent}>
