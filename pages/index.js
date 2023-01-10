@@ -15,13 +15,15 @@ export default function Home() {
         <section className={styles.intro}>
           <div className={styles.introWindow}>
             <div className={styles.windowTop}>
-              <div>
-                <div className={styles.green}></div>
-                <div className={styles.yellow}></div>
+              <div className={styles.buttonSelection}>
                 <div className={styles.red}></div>
+                <div className={styles.yellow}></div>
+                <div className={styles.green}></div>
               </div>
 
               <p>intro.txt</p>
+
+              <div></div>
             </div>
 
             <div className={styles.introContent}>
