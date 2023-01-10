@@ -49,7 +49,16 @@ export default function Home() {
         </section>
 
         <section className={styles.aboutMe}>
-          
+          <div className={styles.menuBar}>
+            <div>
+              <p>JC</p>
+              <p>About Me</p>
+            </div>
+
+            <div>
+              <p>Wed Jan 4 2:16 PM</p>
+            </div>
+          </div>
         </section>
       </main>
     </>
