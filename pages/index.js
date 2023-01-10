@@ -33,14 +33,14 @@ export default function Home() {
             </div>
 
             <div className={styles.introContent}>
-              <h1>John Climie</h1>
-              <h2>Full-Stack Web Developer</h2>
+              <h1 className={styles.name}>John Climie</h1>
+              <h2 className={styles.careerName}>Full-Stack Web Developer</h2>
               <div className={styles.introLinks}>
                 <h2>About Me</h2>
                 <h2>My Work</h2>
                 <h2>Contact</h2>
               </div>
-              <h2>Resume</h2>
+              <h2 className={styles.resumeLink}>Resume</h2>
             </div>
           </div>
         </section>

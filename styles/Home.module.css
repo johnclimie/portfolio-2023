@@ -81,18 +81,17 @@
   font-family: 'Menlo', sans-serif;
 }
 
-.introContent h1 {
-  font-size: 3rem;
-  margin: 1rem 0rem;
-}
 
-.introContent h2 {
-  font-size: 2rem;
-  margin: .8rem 0rem;
-}
 
 .introLinks {
   display: flex;
   flex-direction: row;
 }
 
+.introLinks h2 {
+
+}
+
+.resumeLink {
+
+}
