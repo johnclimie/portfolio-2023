@@ -21,15 +21,17 @@ export default function Home() {
                 <div className={styles.green}></div>
               </div>
 
-              <div className={styles.windowTitle}>
+              <p className={styles.windowTitle}>
                 intro.txt
-              </div>
+              </p>
+
+              <div className={styles.placeholder}></div>
             </div>
 
             <div className={styles.introContent}>
               <h1>John Climie</h1>
               <h2>Full-Stack Web Developer</h2>
-              <div>
+              <div className='introLinks'>
                 <h2>About Me</h2>
                 <h2>My Work</h2>
                 <h2>Contact</h2>
