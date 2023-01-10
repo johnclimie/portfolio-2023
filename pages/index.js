@@ -21,7 +21,9 @@ export default function Home() {
                 <div className={styles.green}></div>
               </div>
 
-              <p>intro.txt</p>
+              <div className={styles.windowTitle}>
+                intro.txt
+              </div>
             </div>
 
             <div className={styles.introContent}>
