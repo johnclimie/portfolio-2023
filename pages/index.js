@@ -50,12 +50,12 @@ export default function Home() {
 
         <section className={styles.aboutMe}>
           <div className={styles.menuBar}>
-            <div>
+            <div className={styles.menuId}>
               <p>JC</p>
               <p>About Me</p>
             </div>
 
-            <div>
+            <div className={styles.menuTime}>
               <p>Wed Jan 4 2:16 PM</p>
             </div>
           </div>

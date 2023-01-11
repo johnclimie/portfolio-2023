@@ -136,5 +136,18 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   height: 1.5rem;
+  background-color: #242424;
+  color: #FFFFFF;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.menuId {
+  display: flex;
+  flex-direction: row;
+}
+
+.menuId p {
+  margin: 0rem .28rem;
 }
