@@ -59,6 +59,9 @@ export default function Home() {
               <p>Wed Jan 4 2:16 PM</p>
             </div>
           </div>
+          <div className={styles.aboutMeContent}>
+
+          </div>
         </section>
       </main>
     </>
