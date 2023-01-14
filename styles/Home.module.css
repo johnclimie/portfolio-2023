@@ -195,8 +195,10 @@
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
-.two {
-  background-color: blue;
+.skillsTxt {
   grid-column: 7/10;
   grid-row: 3/9;
+  display: flex;
+  border-radius: .6rem;
+  background-color: #FFFFFF;
 }
