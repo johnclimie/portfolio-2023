@@ -61,7 +61,11 @@ export default function Home() {
           </div>
           
           <div className={styles.aboutMeContent}>
-            <div className={styles.aboutMeGrid}></div>
+            <div className={styles.aboutMeGrid}>
+              <div class={styles.one}></div>
+              <div class={styles.two}></div>
+              <div class={styles.three}></div>
+            </div>
           </div>
         </section>
       </main>
