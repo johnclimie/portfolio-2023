@@ -71,7 +71,7 @@ export default function Home() {
                   </div>
 
                   <p className={styles.windowTitle}>
-                    intro.txt
+                    aboutme.txt
                   </p>
 
                   <div className={styles.buttonSelectionFiller}>
@@ -93,7 +93,7 @@ export default function Home() {
                     </div>
 
                     <p className={styles.windowTitle}>
-                      intro.txt
+                      skills.txt
                     </p>
 
                     <div className={styles.buttonSelectionFiller}>
