@@ -62,9 +62,26 @@ export default function Home() {
           
           <div className={styles.aboutMeContent}>
             <div className={styles.aboutMeGrid}>
-              <div class={styles.one}></div>
+              <div class={styles.aboutMeTxt}>
+                <div class={styles.lightWindowTop}>
+                    <div className={styles.buttonSelection}>
+                    <div className={styles.red}></div>
+                    <div className={styles.yellow}></div>
+                    <div className={styles.green}></div>
+                  </div>
+
+                  <p className={styles.windowTitle}>
+                    intro.txt
+                  </p>
+
+                  <div className={styles.buttonSelectionFiller}>
+                    <div className={styles.red}></div>
+                    <div className={styles.yellow}></div>
+                    <div className={styles.green}></div>
+                  </div>
+                </div>
+              </div>
               <div class={styles.two}></div>
-              <div class={styles.three}></div>
             </div>
           </div>
         </section>
