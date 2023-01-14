@@ -62,8 +62,8 @@ export default function Home() {
           
           <div className={styles.aboutMeContent}>
             <div className={styles.aboutMeGrid}>
-              <div class={styles.aboutMeTxt}>
-                <div class={styles.lightWindowTop}>
+              <div className={styles.aboutMeTxt}>
+                <div className={styles.lightWindowTop}>
                     <div className={styles.buttonSelection}>
                     <div className={styles.red}></div>
                     <div className={styles.yellow}></div>
@@ -84,8 +84,8 @@ export default function Home() {
 
               </div>
 
-              <div class={styles.skillsTxt}>
-                <div class={styles.lightWindowTop}>
+              <div className={styles.skillsTxt}>
+                <div className={styles.lightWindowTop}>
                       <div className={styles.buttonSelection}>
                       <div className={styles.red}></div>
                       <div className={styles.yellow}></div>
