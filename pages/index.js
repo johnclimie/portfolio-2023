@@ -80,7 +80,10 @@ export default function Home() {
                     <div className={styles.green}></div>
                   </div>
                 </div>
-
+                
+                <div>
+                  <p></p>
+                </div>
 
               </div>
 
