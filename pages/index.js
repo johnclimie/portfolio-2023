@@ -82,7 +82,9 @@ export default function Home() {
                 </div>
                 
                 <div>
-                  <p></p>
+                  <p>👨‍💻 John J Climie</p>
+                  <p>📍 Atlanta, GA</p>
+                  <p>📅 1/4/2023</p>
                 </div>
 
               </div>
