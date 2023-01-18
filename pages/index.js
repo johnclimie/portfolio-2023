@@ -81,7 +81,7 @@ export default function Home() {
                   </div>
                 </div>
 
-                <div>
+                <div className={styles.aboutMeTxtContent}>
                   <div>
                     <p>👨‍💻 John J Climie</p>
                     <p>📍 Atlanta, GA</p>
