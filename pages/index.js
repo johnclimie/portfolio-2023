@@ -92,7 +92,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className={styles.skillsTxt}>
+              <div className={styles.skillsFolder}>
                 <div className={styles.lightWindowTop}>
                       <div className={styles.buttonSelection}>
                       <div className={styles.red}></div>
@@ -110,6 +110,10 @@ export default function Home() {
                       <div className={styles.green}></div>
                     </div>
                   </div>
+                </div>
+
+                <div className={styles.skillsList}>
+
                 </div>
             </div>
           </div>

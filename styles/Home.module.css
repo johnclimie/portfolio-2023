@@ -211,10 +211,11 @@
   margin: .3rem 0;
 }
 
-.skillsTxt {
+.skillsFolder {
   grid-column: 7/10;
   grid-row: 3/9;
   display: flex;
   border-radius: .6rem;
   background-color: #FFFFFF;
 }
+
