@@ -203,6 +203,14 @@
   font-size: 1.5rem;
 }
 
+.aboutMeTxtContent div {
+  margin-bottom: 2rem;;
+}
+
+.aboutMeTxtContent div p {
+  margin: .3rem 0;
+}
+
 .skillsTxt {
   grid-column: 7/10;
   grid-row: 3/9;
