@@ -112,8 +112,7 @@ export default function Home() {
                   </div>
                 </div>
 
-                <div className={styles.skillsList}>
-
+                <div className={styles.skillsLists}>
                 </div>
             </div>
           </div>
