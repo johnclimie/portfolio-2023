@@ -110,10 +110,9 @@ export default function Home() {
                       <div className={styles.green}></div>
                     </div>
                   </div>
-                </div>
 
-                <div className={styles.skillsLists}>
-                </div>
+                <div>test</div>
+              </div>
             </div>
           </div>
         </section>
