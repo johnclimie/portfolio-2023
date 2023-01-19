@@ -219,3 +219,9 @@
   border-radius: .6rem;
   background-color: #FFFFFF;
 }
+
+.skillsList {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
