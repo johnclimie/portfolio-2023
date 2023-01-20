@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Skill from '../components/Skill'
 
 
 export default function Home() {
@@ -112,7 +113,7 @@ export default function Home() {
                   </div>
 
                 <div className={styles.skillsList}>
-                  <div>red</div>
+                  <div><Skill imgSrc={"/public/dog.jpg"} skill={"dog"}/></div>
                   <div>green</div>
                   <div>yellow</div>
                 </div>

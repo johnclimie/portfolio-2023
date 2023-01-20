@@ -8,6 +8,8 @@ export default function Skill({ imgSrc, skill }) {
             priority
             src={imgSrc}
             alt=""
+            height={144}
+            width={144}
             />
             <p>{skill}</p>
         </>
