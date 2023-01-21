@@ -114,8 +114,8 @@ export default function Home() {
 
                 <div className={styles.skillsList}>
                   <div><Skill imgSrc={"/public/dog.jpg"} skill={"dog"}/></div>
-                  <div>green</div>
-                  <div>yellow</div>
+                  <div><Skill imgSrc={"/public/dog.jpg"} skill={"dog"}/></div>
+                  <div><Skill imgSrc={"/public/dog.jpg"} skill={"dog"}/></div>
                 </div>
               </div>
             </div>
