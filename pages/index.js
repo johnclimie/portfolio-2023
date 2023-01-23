@@ -113,9 +113,10 @@ export default function Home() {
                   </div>
 
                 <div className={styles.skillsList}>
-                  <div><Skill imgSrc={"/public/dog.jpg"} skill={"dog"}/></div>
-                  <div><Skill imgSrc={"/public/dog.jpg"} skill={"dog"}/></div>
-                  <div><Skill imgSrc={"/public/dog.jpg"} skill={"dog"}/></div>
+                  <Skill imgSrc={"/public/dog.jpg"} skill={"dog"}/>
+                  <Skill imgSrc={"/public/dog.jpg"} skill={"dog"}/>
+                  <Skill imgSrc={"/public/dog.jpg"} skill={"dog"}/>
+                  <Skill imgSrc={"/public/dog.jpg"} skill={"dog"}/>
                 </div>
               </div>
             </div>
