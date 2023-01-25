@@ -117,6 +117,20 @@ export default function Home() {
                   <Skill imgSrc={"/public/dog.jpg"} skill={"dog"}/>
                   <Skill imgSrc={"/public/dog.jpg"} skill={"dog"}/>
                   <Skill imgSrc={"/public/dog.jpg"} skill={"dog"}/>
+                  <Skill imgSrc={"/public/dog.jpg"} skill={"dog"}/>
+                  <Skill imgSrc={"/public/dog.jpg"} skill={"dog"}/>
+                  <Skill imgSrc={"/public/dog.jpg"} skill={"dog"}/>
+                  <Skill imgSrc={"/public/dog.jpg"} skill={"dog"}/>
+                  <Skill imgSrc={"/public/dog.jpg"} skill={"dog"}/>
+                  <Skill imgSrc={"/public/dog.jpg"} skill={"dog"}/>
+                  <Skill imgSrc={"/public/dog.jpg"} skill={"dog"}/>
+                  <Skill imgSrc={"/public/dog.jpg"} skill={"dog"}/>
+                  <Skill imgSrc={"/public/dog.jpg"} skill={"dog"}/>
+                  <Skill imgSrc={"/public/dog.jpg"} skill={"dog"}/>
+                  <Skill imgSrc={"/public/dog.jpg"} skill={"dog"}/>
+                  <Skill imgSrc={"/public/dog.jpg"} skill={"dog"}/>
+                  <Skill imgSrc={"/public/dog.jpg"} skill={"dog"}/>
+                  <Skill imgSrc={"/public/dog.jpg"} skill={"dog"}/>
                 </div>
               </div>
             </div>
