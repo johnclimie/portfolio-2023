@@ -2,6 +2,7 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Skill from '../components/Skill'
 import DarkWindowTop from '../components/DarkWindowTop'
+import LightWindowTop from '../components/LightWindowTop'
 
 
 export default function Home() {
@@ -66,7 +67,7 @@ export default function Home() {
           <div className={styles.aboutMeContent}>
             <div className={styles.aboutMeGrid}>
               <div className={styles.aboutMeTxt}>
-                <div className={styles.lightWindowTop}>
+                {/* <div className={styles.lightWindowTop}>
                     <div className={styles.buttonSelection}>
                     <div className={styles.red}></div>
                     <div className={styles.yellow}></div>
@@ -82,7 +83,9 @@ export default function Home() {
                     <div className={styles.yellow}></div>
                     <div className={styles.green}></div>
                   </div>
-                </div>
+                </div> */}
+
+                <LightWindowTop />
 
                 <div className={styles.aboutMeTxtContent}>
                   <div>
