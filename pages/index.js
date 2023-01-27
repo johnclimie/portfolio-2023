@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Skill from '../components/Skill'
+import DarkWindowTop from '../components/DarkWindowTop'
 
 
 export default function Home() {
@@ -15,7 +16,7 @@ export default function Home() {
       <main>
         <section className={styles.intro}>
           <div className={styles.introWindow}>
-            <div className={styles.windowTop}>
+            {/* <div className={styles.windowTop}>
               <div className={styles.buttonSelection}>
                 <div className={styles.red}></div>
                 <div className={styles.yellow}></div>
@@ -31,7 +32,8 @@ export default function Home() {
                 <div className={styles.yellow}></div>
                 <div className={styles.green}></div>
               </div>
-            </div>
+            </div> */}
+            <DarkWindowTop />
 
             <div className={styles.introContent}>
               <h1 className={styles.name}>John Climie</h1>
@@ -110,7 +112,7 @@ export default function Home() {
                       <div className={styles.yellow}></div>
                       <div className={styles.green}></div>
                     </div>
-                  </div>
+                </div>
 
                 <div className={styles.skillsList}>
                   <Skill imgSrc={"/public/dog.jpg"} skill={"dog"}/>
@@ -132,6 +134,10 @@ export default function Home() {
                   <Skill imgSrc={"/public/dog.jpg"} skill={"dog"}/>
                   <Skill imgSrc={"/public/dog.jpg"} skill={"dog"}/>
                 </div>
+              </div>
+
+              <div className={styles.profileImg}>
+
               </div>
             </div>
           </div>
