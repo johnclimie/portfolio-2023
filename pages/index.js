@@ -85,7 +85,7 @@ export default function Home() {
                   </div>
                 </div> */}
 
-                <LightWindowTop />
+                <LightWindowTop title={"about-me.txt"}/>
 
                 <div className={styles.aboutMeTxtContent}>
                   <div>

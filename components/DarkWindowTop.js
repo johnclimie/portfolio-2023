@@ -1,6 +1,6 @@
 import styles from '../styles/DarkWindowTop.module.css'
 
-export default function DarkWindowTop() {
+export default function DarkWindowTop({ title }) {
     return (
         <>
             <div className={styles.windowTop}>
@@ -11,7 +11,7 @@ export default function DarkWindowTop() {
                 </div>
 
                 <p className={styles.windowTitle}>
-                    intro.txt
+                    {title}
                 </p>
 
                 <div className={styles.buttonSelectionFiller}>
