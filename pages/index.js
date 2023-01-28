@@ -34,7 +34,7 @@ export default function Home() {
                 <div className={styles.green}></div>
               </div>
             </div> */}
-            <DarkWindowTop />
+            <DarkWindowTop title="intro.txt"/>
 
             <div className={styles.introContent}>
               <h1 className={styles.name}>John Climie</h1>
