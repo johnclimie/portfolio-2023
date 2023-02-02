@@ -12,6 +12,7 @@ export default function Skill({ imgSrc, skill }) {
                     className={styles.skillImg}
                     alt=""
                 />
+                
                 <p>{skill}</p>
             </div>
         </>
