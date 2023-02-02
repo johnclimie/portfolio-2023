@@ -8,11 +8,10 @@ export default function Skill({ imgSrc, skill }) {
             <div className={styles.skillContainer}>
                 <Image 
                     priority
-                    src={"/dog.jpg"}
+                    src="/../public/dog.jpg"
                     className={styles.skillImg}
                     alt=""
                 />
-                
                 <p>{skill}</p>
             </div>
         </>
