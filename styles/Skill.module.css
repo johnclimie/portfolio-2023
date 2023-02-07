@@ -9,6 +9,7 @@
 
 .skillImg {
     max-width: 10rem;
+    max-height: 10rem;
     width: 100%;
     height: auto;
     margin-bottom: .3rem;
