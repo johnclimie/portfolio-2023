@@ -119,24 +119,7 @@ export default function Home() {
                 </div>
 
                 <div className={styles.skillsList}>
-                  <Skill imgSrc={"/public/dog.jpg"} skill={"dog"}/>
-                  <Skill imgSrc={"/public/dog.jpg"} skill={"dog"}/>
-                  <Skill imgSrc={"/public/dog.jpg"} skill={"dog"}/>
-                  <Skill imgSrc={"/public/dog.jpg"} skill={"dog"}/>
-                  <Skill imgSrc={"/public/dog.jpg"} skill={"dog"}/>
-                  <Skill imgSrc={"/public/dog.jpg"} skill={"dog"}/>
-                  <Skill imgSrc={"/public/dog.jpg"} skill={"dog"}/>
-                  <Skill imgSrc={"/public/dog.jpg"} skill={"dog"}/>
-                  <Skill imgSrc={"/public/dog.jpg"} skill={"dog"}/>
-                  <Skill imgSrc={"/public/dog.jpg"} skill={"dog"}/>
-                  <Skill imgSrc={"/public/dog.jpg"} skill={"dog"}/>
-                  <Skill imgSrc={"/public/dog.jpg"} skill={"dog"}/>
-                  <Skill imgSrc={"/public/dog.jpg"} skill={"dog"}/>
-                  <Skill imgSrc={"/public/dog.jpg"} skill={"dog"}/>
-                  <Skill imgSrc={"/public/dog.jpg"} skill={"dog"}/>
-                  <Skill imgSrc={"/public/dog.jpg"} skill={"dog"}/>
-                  <Skill imgSrc={"/public/dog.jpg"} skill={"dog"}/>
-                  <Skill imgSrc={"/public/dog.jpg"} skill={"dog"}/>
+                  <Skill imgSrc={"/../public/skill_imgs/mongo.png"} skill={"MongoDB"}/>
                 </div>
               </div>
 
