@@ -120,6 +120,7 @@ export default function Home() {
 
                 <div className={styles.skillsList}>
                   <Skill imgSrc={"/../public/skill_imgs/mongo.png"} skill={"MongoDB"}/>
+                  <Skill imgSrc={"/../public/skill_imgs/git.png"} skill={"Git"}/>
                 </div>
               </div>
 

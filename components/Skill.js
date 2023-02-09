@@ -9,7 +9,7 @@ export default function Skill({ imgSrc, skill }) {
                 <Image 
                     priority
                     // fill
-                    src="/../public/skill_imgs/mongo.png"
+                    src={imgSrc}
                     width="1600"
                     height="1600"
                     className={styles.skillImg}
