@@ -75,10 +75,6 @@ export default function Home() {
                   <Skill imgSrc={"/../public/skill_imgs/node.png"} skill={"NodeJS"}/>
                 </div>
               </div>
-              
-              <div className={styles.profileImg}>
-
-              </div>
             </div>
           </div>
         </section>
