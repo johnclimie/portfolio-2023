@@ -17,24 +17,6 @@ export default function Home() {
       <main>
         <section className={styles.intro}>
           <div className={styles.introWindow}>
-            {/* <div className={styles.windowTop}>
-              <div className={styles.buttonSelection}>
-                <div className={styles.red}></div>
-                <div className={styles.yellow}></div>
-                <div className={styles.green}></div>
-              </div>
-
-              <p className={styles.windowTitle}>
-                intro.txt
-              </p>
-
-              <div className={styles.buttonSelectionFiller}>
-                <div className={styles.red}></div>
-                <div className={styles.yellow}></div>
-                <div className={styles.green}></div>
-              </div>
-            </div> */}
-            
             <DarkWindowTop title="intro.txt"/>
 
             <div className={styles.introContent}>
@@ -68,24 +50,6 @@ export default function Home() {
           <div className={styles.aboutMeContent}>
             <div className={styles.aboutMeGrid}>
               <div className={styles.aboutMeTxt}>
-                {/* <div className={styles.lightWindowTop}>
-                    <div className={styles.buttonSelection}>
-                    <div className={styles.red}></div>
-                    <div className={styles.yellow}></div>
-                    <div className={styles.green}></div>
-                  </div>
-
-                  <p className={styles.windowTitle}>
-                    🖹 aboutme.txt
-                  </p>
-
-                  <div className={styles.buttonSelectionFiller}>
-                    <div className={styles.red}></div>
-                    <div className={styles.yellow}></div>
-                    <div className={styles.green}></div>
-                  </div>
-                </div> */}
-
                 <LightWindowTop title={"about-me.txt"}/>
 
                 <div className={styles.aboutMeTxtContent}>
@@ -100,23 +64,7 @@ export default function Home() {
               </div>
 
               <div className={styles.skillsFolder}>
-                <div className={styles.lightWindowTop}>
-                      <div className={styles.buttonSelection}>
-                      <div className={styles.red}></div>
-                      <div className={styles.yellow}></div>
-                      <div className={styles.green}></div>
-                    </div>
-
-                    <p className={styles.windowTitle}>
-                      🖹 skills.txt
-                    </p>
-
-                    <div className={styles.buttonSelectionFiller}>
-                      <div className={styles.red}></div>
-                      <div className={styles.yellow}></div>
-                      <div className={styles.green}></div>
-                    </div>
-                </div>
+                <LightWindowTop title={"about-me.txt"}/>
 
                 <div className={styles.skillsList}>
                   <Skill imgSrc={"/../public/skill_imgs/mongo.png"} skill={"MongoDB"}/>
@@ -125,10 +73,9 @@ export default function Home() {
                   <Skill imgSrc={"/../public/skill_imgs/next.png"} skill={"Next.js"}/>
                   <Skill imgSrc={"/../public/skill_imgs/express.png"} skill={"Express"}/>
                   <Skill imgSrc={"/../public/skill_imgs/node.png"} skill={"NodeJS"}/>
-                  
                 </div>
               </div>
-
+              
               <div className={styles.profileImg}>
 
               </div>
