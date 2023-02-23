@@ -3,9 +3,11 @@ import styles from '../styles/Home.module.css'
 import Skill from '../components/Skill'
 import DarkWindowTop from '../components/DarkWindowTop'
 import LightWindowTop from '../components/LightWindowTop'
+import skillData from '../data/skill-data'
 
 
 export default function Home() {
+  console.log(skillData);
   return (
     <>
       <Head>
