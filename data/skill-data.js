@@ -1,3 +1,5 @@
-export default  [
-    
+const skillData = [
+    {name: 'name'},
 ]
+
+exports.skillData;
