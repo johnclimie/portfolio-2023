@@ -73,14 +73,6 @@ export default function Home() {
                       <Skill imgSrc={skill.src} skill={skill.name}/>
                     )
                   })}
-
-
-                  {/* <Skill imgSrc={"/../public/skill_imgs/mongo.png"} skill={"MongoDB"}/>
-                  <Skill imgSrc={"/../public/skill_imgs/git.png"} skill={"Git"}/>
-                  <Skill imgSrc={"/../public/skill_imgs/react.png"} skill={"React"}/>
-                  <Skill imgSrc={"/../public/skill_imgs/next.png"} skill={"Next.js"}/>
-                  <Skill imgSrc={"/../public/skill_imgs/express.png"} skill={"Express"}/>
-                  <Skill imgSrc={"/../public/skill_imgs/node.png"} skill={"NodeJS"}/> */}
                 </div>
               </div>
             </div>
