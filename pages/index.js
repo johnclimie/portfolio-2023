@@ -68,6 +68,11 @@ export default function Home() {
                 <LightWindowTop title={"about-me.txt"}/>
 
                 <div className={styles.skillsList}>
+                  {skillData.map(skill => {
+                    return ( 
+                      <Skill imgSrc={skill.src} skill={skill.name}/>
+                    )
+                  })}
 
 
                   {/* <Skill imgSrc={"/../public/skill_imgs/mongo.png"} skill={"MongoDB"}/>
