@@ -1,9 +1,9 @@
-import styles from '../styles/DarkWindowTop.module.css'
+import styles from '../styles/WindowTop.module.css'
 
 export default function DarkWindowTop({ title }) {
     return (
         <>
-            <div className={styles.windowTop}>
+            <div className={styles.darkWindowTop}>
                 <div className={styles.buttonSelection}>
                     <div className={styles.red}></div>
                     <div className={styles.yellow}></div>

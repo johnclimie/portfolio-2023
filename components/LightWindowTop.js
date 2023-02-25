@@ -1,9 +1,9 @@
-import styles from '../styles/LightWindowTop.module.css'
+import styles from '../styles/WindowTop.module.css'
 
 export default function LightWindowTop({ title }) {
     return (
         <>
-            <div className={styles.windowTop}>
+            <div className={styles.lightWindowTop}>
                 <div className={styles.buttonSelection}>
                     <div className={styles.red}></div>
                     <div className={styles.yellow}></div>
