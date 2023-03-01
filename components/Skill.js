@@ -1,10 +1,10 @@
 import Image from "next/image";
 import styles from '../styles/Skill.module.css';
 
-export default function Skill({ imgSrc, skill, key }) {
+export default function Skill({ imgSrc, skill }) {
     return (
         <>
-            <div className={styles.skillContainer} key={key}>
+            <div className={styles.skillContainer}>
                 <Image 
                     priority
                     src={imgSrc}
