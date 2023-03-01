@@ -4,16 +4,9 @@ export default [
         src: '/../public/skill_imgs/mongo.png'
     },
     {
-        name: 'MongoDB',
+        name: 'MongoDBunq',
         src: '/../public/skill_imgs/mongo.png'
     },
-    {
-        name: 'MongoDB',
-        src: '/../public/skill_imgs/mongo.png'
-    },
-    {
-        name: 'MongoDB',
-        src: '/../public/skill_imgs/mongo.png'
-    },
+
 ]
 
