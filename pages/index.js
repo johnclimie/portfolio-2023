@@ -4,6 +4,7 @@ import Skill from '../components/Skill'
 import DarkWindowTop from '../components/DarkWindowTop'
 import LightWindowTop from '../components/LightWindowTop'
 import skillData from '../data/skill-data'
+import IntroSection from '../components/IntroSection'
 
 
 export default function Home() {
@@ -16,7 +17,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <section className={styles.intro}>
+        {/* <section className={styles.intro}>
           <div className={styles.introWindow}>
             <DarkWindowTop title="intro.txt"/>
 
@@ -34,7 +35,9 @@ export default function Home() {
               <h2 className={styles.resumeLink}>Resume</h2>
             </div>
           </div>
-        </section>
+        </section> */}
+
+        <IntroSection />
 
         <section className={styles.aboutMe}>
           <div className={styles.menuBar}>

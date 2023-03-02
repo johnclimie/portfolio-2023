@@ -1,4 +1,5 @@
 import DarkWindowTop from "./DarkWindowTop";
+import styles from "../styles/IntroSection.module.css";
 
 export default function IntroSection() {
     return (
