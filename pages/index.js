@@ -5,6 +5,7 @@ import DarkWindowTop from '../components/DarkWindowTop'
 import LightWindowTop from '../components/LightWindowTop'
 import skillData from '../data/skill-data'
 import IntroSection from '../components/IntroSection'
+import AboutMeSection from '../components/AboutMeSection'
 
 
 export default function Home() {
@@ -39,7 +40,7 @@ export default function Home() {
 
         <IntroSection />
 
-        <section className={styles.aboutMe}>
+        {/* <section className={styles.aboutMe}>
           <div className={styles.menuBar}>
             <div className={styles.menuId}>
               <p>JC</p>
@@ -80,7 +81,8 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
+        <AboutMeSection />
       </main>
     </>
   )
