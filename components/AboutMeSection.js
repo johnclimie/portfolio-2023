@@ -9,16 +9,6 @@ export default function AboutMeSection() {
     return (
         <>
             <section className={styles.aboutMe}>
-                {/* <div className={styles.menuBar}>
-                    <div className={styles.menuId}>
-                    <p>JC</p>
-                    <p>About Me</p>
-                    </div>
-
-                    <div className={styles.menuTime}>
-                    <p>Wed Jan 4 2:16 PM</p>
-                    </div>
-                </div> */}
                 <MenuBar />
                 
                 <div className={styles.aboutMeContent}>
