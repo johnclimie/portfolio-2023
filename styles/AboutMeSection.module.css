@@ -16,17 +16,6 @@
     align-self: center;
     padding: .8rem;
   }
-  
-  /* .aboutMeGrid {
-    display: grid;
-    grid-template-columns: repeat(9, 1fr);
-    grid-template-rows: repeat(9, 1fr);
-    gap: 1rem;
-    max-width: 130rem;
-    width: 100%;
-    min-height: 90vh;
-    background-color: #2E2E2E;
-  } */
 
   .aboutMeGrid {
     display: flex;
@@ -34,8 +23,6 @@
   }
   
   .aboutMeTxt {
-    /* grid-column: 1 / 7;
-    grid-row: 2/7; */
     width: 50%;
     margin: .5rem;
     display: flex;
@@ -61,8 +48,6 @@
   }
   
   .skillsFolder {
-    /* grid-column: 7/10;
-    grid-row: 2/10; */
     width: 50%;
     margin: .5rem;
     display: flex;
