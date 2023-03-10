@@ -33,7 +33,7 @@ export default function AboutMeSection() {
                             <div className={styles.skillsList}>
                             {skillData.map(skill => {
                                 return ( 
-                                <Skill imgSrc={skill.src} skill={skill.name} key={skill.name}/>
+                                    <Skill imgSrc={skill.src} skill={skill.name} key={skill.name}/>
                                 )
                             })}
                             </div>
