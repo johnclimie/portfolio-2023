@@ -23,7 +23,7 @@
   }
   
   .aboutMeTxt {
-    width: 50%;
+    max-width: 50%;
     margin: .5rem;
     display: flex;
     flex-direction: column;
@@ -48,7 +48,7 @@
   }
   
   .skillsFolder {
-    width: 50%;
+    max-width: 50%;
     margin: .5rem;
     display: flex;
     flex-direction: column;
@@ -58,7 +58,18 @@
   
   .skillsList {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 10px;
   }
   
+  @media screen and (max-width: 1200px) {
+    .aboutMeGrid {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .aboutMeTxt, .skillsFolder {
+      max-width: 75%;
+    }
+  }
