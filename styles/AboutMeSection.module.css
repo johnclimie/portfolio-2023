@@ -45,6 +45,11 @@
   
   .aboutMeTxtContent div p {
     margin: .3rem 0;
+    font-size: 3rem;
+  }
+
+  .aboutMeTxtContent p {
+    font-size: 2.5rem;
   }
   
   .skillsFolder {
@@ -58,7 +63,6 @@
   
   .skillsList {
     display: grid;
-    /* grid-template-columns: repeat(1fr, 1fr); */
     grid-template-columns: repeat(5, 1fr);
     gap: 10px;
   }
@@ -72,5 +76,29 @@
 
     .aboutMeTxt, .skillsFolder {
       max-width: 75%;
+      width: 100%;
+    }
+
+    .aboutMeTxtContent div p {
+      font-size: 2.5rem;
+    }
+  
+    .aboutMeTxtContent p {
+      font-size: 2rem;
+    }
+
+    .skillsList {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+    }
+  }
+
+  @media screen and (max-width: 650px) {
+    .aboutMeTxtContent div p {
+      font-size: 1.5rem;
+    }
+  
+    .aboutMeTxtContent p {
+      font-size: 1.1rem;
     }
   }
