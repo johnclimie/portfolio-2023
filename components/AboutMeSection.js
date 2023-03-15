@@ -14,7 +14,7 @@ export default function AboutMeSection() {
                 <div className={styles.aboutMeContent}>
                     <div className={styles.aboutMeGrid}>
                         <div className={styles.aboutMeTxt}>
-                            <LightWindowTop title={"about-me.txt"}/>
+                            <LightWindowTop title={"🗒️ about-me.txt"}/>
 
                             <div className={styles.aboutMeTxtContent}>
                             <div>
@@ -28,7 +28,7 @@ export default function AboutMeSection() {
                         </div>
 
                         <div className={styles.skillsFolder}>
-                            <LightWindowTop title={"about-me.txt"}/>
+                            <LightWindowTop title={"📁 Skills"}/>
 
                             <div className={styles.skillsList}>
                             {skillData.map(skill => {

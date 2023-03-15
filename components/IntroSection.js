@@ -6,7 +6,7 @@ export default function IntroSection() {
         <>
             <section className={styles.intro}>
                 <div className={styles.introWindow}>
-                    <DarkWindowTop title="intro.txt"/>
+                    <DarkWindowTop title="🗒️ intro.txt"/>
 
                     <div className={styles.introContent}>
                     <h1 className={styles.name}>John Climie</h1>
