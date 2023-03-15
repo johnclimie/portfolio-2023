@@ -45,11 +45,11 @@
   
   .aboutMeTxtContent div p {
     margin: .3rem 0;
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   .aboutMeTxtContent p {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   
   .skillsFolder {
@@ -63,7 +63,7 @@
   
   .skillsList {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 10px;
   }
   
