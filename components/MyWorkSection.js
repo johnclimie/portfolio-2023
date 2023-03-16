@@ -6,11 +6,11 @@ export default function MyWorkSection() {
         <>
             <section className={styles.myWork}>
                 <MenuBar />
+
+                <div className={styles.myWorkContent}>
+                    <p>test</p>
+                </div>
             </section>
-
-            <div className={styles.myWorkContent}>
-
-            </div>
         </>
     )
 }

@@ -1,6 +1,8 @@
 .myWork {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     min-height: 100vh;
     height: 100%;
     background-color: #ffffff;
@@ -12,4 +14,5 @@
     max-width: 100rem;
     justify-content: center;
     align-items: center;
+    padding: .8rem;
 }
