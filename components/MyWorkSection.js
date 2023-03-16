@@ -1,5 +1,6 @@
 import styles from '../styles/MyWorkSection.module.css';
 import MenuBar from "./MenuBar";
+import Project from './Project';
 
 export default function MyWorkSection() {
     return (
@@ -8,7 +9,7 @@ export default function MyWorkSection() {
                 <MenuBar />
 
                 <div className={styles.myWorkContent}>
-                    <p>test</p>
+                    <Project />
                 </div>
             </section>
         </>
