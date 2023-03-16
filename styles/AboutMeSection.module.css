@@ -1,6 +1,8 @@
 .aboutMe {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   min-height: 100vh;
   height: 100%;
   background-color: #2E2E2E
@@ -12,8 +14,6 @@
     max-width: 100rem;
     justify-content: center;
     align-items: center;
-    justify-self: center;
-    align-self: center;
     padding: .8rem;
   }
 
@@ -100,5 +100,5 @@
     .aboutMeTxtContent p {
       font-size: 1.1rem;
     }
-    
+
   }
