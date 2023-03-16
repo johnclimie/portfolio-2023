@@ -1,6 +1,7 @@
-import Head from 'next/head'
-import IntroSection from '../components/IntroSection'
-import AboutMeSection from '../components/AboutMeSection'
+import Head from 'next/head';
+import IntroSection from '../components/IntroSection';
+import AboutMeSection from '../components/AboutMeSection';
+import MyWorkSection from '../components/MyWorkSection';
 
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <main>
         <IntroSection />
         <AboutMeSection />
+        <MyWorkSection />
       </main>
     </>
   )
