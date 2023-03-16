@@ -9,6 +9,8 @@ export default function MyWorkSection() {
                 <MenuBar />
 
                 <div className={styles.myWorkContent}>
+                    <Project title="Project 1"/>
+                    <Project />
                     <Project />
                 </div>
             </section>

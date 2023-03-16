@@ -12,7 +12,7 @@
     display: flex;
     flex: 1;
     max-width: 100rem;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: .8rem;
 }
