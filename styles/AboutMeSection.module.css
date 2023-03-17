@@ -22,10 +22,11 @@
   .aboutMeGrid {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
   }
   
   .aboutMeTxt {
-    max-width: 50%;
+    max-width: 45%;
     margin: .5rem;
     display: flex;
     flex-direction: column;
@@ -55,7 +56,7 @@
   }
   
   .skillsFolder {
-    max-width: 50%;
+    max-width: 45%;
     width: 100%;
     margin: .5rem;
     display: flex;
