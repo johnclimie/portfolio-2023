@@ -17,3 +17,10 @@
     align-items: center;
     padding: .8rem;
 }
+
+
+@media screen and (max-width: 1200px) {
+    .myWorkContent {
+        flex-direction: column;
+    }
+}

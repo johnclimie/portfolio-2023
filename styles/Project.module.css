@@ -3,6 +3,7 @@
     background-color: #2E2E2E;
     color: #FFFFFF;
     border-radius: .6rem;
+    margin: .5rem 0rem;
 }
 
 .projectContent {
@@ -35,4 +36,14 @@
 
 .projectStack {
     margin-left: 2rem;
+}
+
+.projectInfo li a {
+    color: #FFFFFF
+}
+
+@media screen and (max-width: 1200px) {
+    .projectContainer {
+        max-width: 75%;
+    }
 }

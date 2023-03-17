@@ -29,8 +29,8 @@ export default function Project({ title, imgSrc, desc, stack, demo, src, key }) 
                                 })}
                             </ul>
                         </div>
-                        <li><a href={demo} target="_blank" rel="noreferrer">demo 🚀</a></li>
-                        <li><a href={src} target="_blank" rel="noreferrer">source 📁</a></li>
+                        <li><a href={demo} target="_blank" rel="noreferrer">demo <span>🚀</span></a></li>
+                        <li><a href={src} target="_blank" rel="noreferrer">source <span>📁</span></a></li>
                     </ul>
                 </div>
             </div>
