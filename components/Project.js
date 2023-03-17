@@ -18,7 +18,7 @@ export default function Project({ title, imgSrc, desc, stack, demo, src, key }) 
                     />
                     <ul className={styles.projectInfo}>
                         <li>title: {title}</li>
-                        <li className={styles.desc}>desc: {desc}</li>
+                        <li className={styles.desc}>description: {desc}</li>
                         <li>Created with:</li>
                         <div className={styles.projectStack}>
                             <ul>
