@@ -9,6 +9,8 @@
     display: flex;
     flex-direction: column;
     margin: .5rem;
+    font-family: 'Menlo', sans-serif;
+    font-size: 1.3rem;
 }
 
 .projectImg {
@@ -22,6 +24,13 @@
 
 .projectInfo li {
     padding: .1rem 0rem;
+    list-style-type: disc;
+    list-style-position: inside
+}
+
+.desc {
+    text-indent: -20px;
+    margin-left: 20px;
 }
 
 .projectStack {
