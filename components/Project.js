@@ -2,7 +2,7 @@ import styles from '../styles/Project.module.css';
 import Image from 'next/image';
 import DarkWindowTop from './DarkWindowTop.js';
 
-export default function Project({ title, imgSrc, desc, stack, demo, src }) {
+export default function Project({ title, imgSrc, desc, stack, demo, src, key }) {
     return (
         <>
             <div className={styles.projectContainer}>
@@ -18,22 +18,19 @@ export default function Project({ title, imgSrc, desc, stack, demo, src }) {
                     />
                     <ul className={styles.projectInfo}>
                         <li>title: {title}</li>
-                        <li className={styles.desc}>{desc}</li>
+                        <li className={styles.desc}>desc: {desc}</li>
                         <li>Created with:</li>
                         <div className={styles.projectStack}>
                             <ul>
-                                <li>Lorem</li>
-                                <li>Ipsum</li>
-                                <li>Dolor</li>
                                 {stack.map(skill => {
-                                    reutrn (
+                                    return (
                                         <li>{skill}</li>
                                     )
                                 })}
                             </ul>
                         </div>
-                        <li><a href={demo} target="_blank">demo 🚀</a></li>
-                        <li><a href={src} target="_blank">source 📁</a></li>
+                        <li><a href={demo} target="_blank" rel="noreferrer">demo 🚀</a></li>
+                        <li><a href={src} target="_blank" rel="noreferrer">source 📁</a></li>
                     </ul>
                 </div>
             </div>
