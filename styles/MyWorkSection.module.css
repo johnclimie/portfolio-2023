@@ -5,7 +5,9 @@
     align-items: center;
     min-height: 100vh;
     height: 100%;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
+    background-image: url('../public/background_imgs/layered-peaks-haikei.svg');
+    background-size: cover;
 }
 
 .myWorkContent {
