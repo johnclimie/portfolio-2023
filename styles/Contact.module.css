@@ -1,0 +1,21 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    height: 100%;
+}
+
+.contactContent {
+    display: flex;
+    flex: 1;
+    max-width: 60rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactWindow {
+    
+}
