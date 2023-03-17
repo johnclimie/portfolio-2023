@@ -11,7 +11,7 @@
 .myWorkContent {
     display: flex;
     flex: 1;
-    max-width: 100rem;
+    max-width: 120rem;
     justify-content: space-between;
     align-items: center;
     padding: .8rem;
