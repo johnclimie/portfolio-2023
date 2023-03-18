@@ -5,7 +5,7 @@ import DarkWindowTop from './DarkWindowTop.js';
 export default function Project({ title, imgSrc, desc, stack, demo, src, key }) {
     return (
         <>
-            <div className={styles.projectContainer}>
+            <div className={styles.projectContainer} key={key}>
                 <DarkWindowTop title ={title} />
                 <div className={styles.projectContent}>
                     <Image 
