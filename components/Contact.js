@@ -17,17 +17,17 @@ export default function Contact() {
                             <form>
                                 <div>
                                     <div>
-                                        <label for="name">name</label>
+                                        <label htmlFor="name">name</label>
                                         <input type="text" id="name"></input>
                                     </div>
 
                                     <div>
-                                        <label for="email">email</label>
+                                        <label htmlFor="email">email</label>
                                         <input type="text" id="email"></input>
                                     </div>
                                 </div>
 
-                                <label for="msg">msg</label>
+                                <label htmlFor="msg">msg</label>
                                 <input type="text" id="msg"></input>
                             </form>
                         </div>

@@ -2,10 +2,10 @@ import styles from '../styles/Project.module.css';
 import Image from 'next/image';
 import DarkWindowTop from './DarkWindowTop.js';
 
-export default function Project({ title, imgSrc, desc, stack, demo, src, key }) {
+export default function Project({ title, imgSrc, desc, stack, demo, src, }) {
     return (
         <>
-            <div className={styles.projectContainer} key={key}>
+            <div className={styles.projectContainer}>
                 <DarkWindowTop title ={title} />
                 <div className={styles.projectContent}>
                     <Image 
@@ -24,7 +24,7 @@ export default function Project({ title, imgSrc, desc, stack, demo, src, key }) 
                             <ul>
                                 {stack.map(skill => {
                                     return (
-                                        <li>{skill}</li>
+                                        <li key={skill}>{skill}</li>
                                     )
                                 })}
                             </ul>
