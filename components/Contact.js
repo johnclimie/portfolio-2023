@@ -29,6 +29,7 @@ export default function Contact() {
 
                                 <label htmlFor="msg">msg</label>
                                 <input type="text" id="msg"></input>
+                                <button>Submit</button>
                             </form>
                         </div>
                     </div>
