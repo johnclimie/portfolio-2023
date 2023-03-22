@@ -15,20 +15,20 @@ export default function Contact() {
                             <h1>Contact Me</h1>
                             <p>you can email me at johnclimie00@gmail.com or you can fill out this form</p>
                             <form className={styles.contactForm}>
-                                <div className={styles.inputsContainer}>
-                                    <div>
+                                <div className={styles.allInputsContainer}>
+                                    <div className={styles.inputContainer}>
                                         <label htmlFor="name">name</label>
                                         <input type="text" id="name"></input>
                                     </div>
 
-                                    <div>
+                                    <div className={styles.inputContainer}>
                                         <label htmlFor="email">email</label>
                                         <input type="text" id="email"></input>
                                     </div>
 
-                                    <div>
+                                    <div className={styles.inputContainer}>
                                         <label htmlFor="msg">msg</label>
-                                        <input type="text" id="msg"></input>
+                                        <input type="text" id="msg" className={styles.msgInput}></input>
                                     </div>
                                 </div>
 

@@ -21,7 +21,7 @@
 }
 
 .contactWindowContent {
-    padding: 3rem 1rem;
+    padding: 2rem 1rem;
 }
 
 .contactWindowContent h1 {
@@ -36,8 +36,23 @@
     margin: 1rem 0rem;
 }
 
-.inputsContainer {
+.allInputsContainer {
     display: flex;
     flex-direction: column;
+    max-width: 40rem;
+    width: 100%;
 }
 
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    margin: .5rem 0rem;
+}
+
+.inputContainer label {
+    margin-bottom: .3rem;
+}
+
+.msgInput {
+    height: 5rem;
+}
