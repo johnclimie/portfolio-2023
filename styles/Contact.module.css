@@ -53,12 +53,11 @@
     margin-bottom: .3rem;
 }
 
+.inputContainer textarea {
+    resize: none;
+}
+
 .inputContainer input, .inputContainer textarea{
     padding: .2rem;
     font-size: 1rem;
-}
-
-.msgInput {
-    height: 5rem;
-    resize: none;
 }

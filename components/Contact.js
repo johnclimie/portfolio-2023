@@ -28,7 +28,7 @@ export default function Contact() {
 
                                     <div className={styles.inputContainer}>
                                         <label htmlFor="msg">msg</label>
-                                        <textarea type="text" id="msg" className={styles.msgInput}></textarea>
+                                        <textarea type="text" id="msg" rows="5"></textarea>
                                     </div>
                                 </div>
 
