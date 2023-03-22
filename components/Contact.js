@@ -11,11 +11,11 @@ export default function Contact() {
                 <div className={styles.contactContent}>
                     <div className={styles.contactWindow}>
                         <LightWindowTop title="contact-me.exe"/>
-                        <div>
+                        <div className={styles.contactWindowContent}>
                             <h1>Contact Me</h1>
                             <p>you can email me at johnclimie00@gmail.com or you can fill out this form</p>
-                            <form>
-                                <div>
+                            <form className={styles.contactForm}>
+                                <div className={styles.inputsContainer}>
                                     <div>
                                         <label htmlFor="name">name</label>
                                         <input type="text" id="name"></input>
@@ -25,10 +25,13 @@ export default function Contact() {
                                         <label htmlFor="email">email</label>
                                         <input type="text" id="email"></input>
                                     </div>
+
+                                    <div>
+                                        <label htmlFor="msg">msg</label>
+                                        <input type="text" id="msg"></input>
+                                    </div>
                                 </div>
 
-                                <label htmlFor="msg">msg</label>
-                                <input type="text" id="msg"></input>
                                 <button>Submit</button>
                             </form>
                         </div>
