@@ -17,18 +17,18 @@ export default function Contact() {
                             <form className={styles.contactForm}>
                                 <div className={styles.allInputsContainer}>
                                     <div className={styles.inputContainer}>
-                                        <label htmlFor="name">name</label>
+                                        <label htmlFor="name">name:</label>
                                         <input type="text" id="name"></input>
                                     </div>
 
                                     <div className={styles.inputContainer}>
-                                        <label htmlFor="email">email</label>
+                                        <label htmlFor="email">email:</label>
                                         <input type="text" id="email"></input>
                                     </div>
 
                                     <div className={styles.inputContainer}>
                                         <label htmlFor="msg">msg</label>
-                                        <input type="text" id="msg" className={styles.msgInput}></input>
+                                        <textarea type="text" id="msg" className={styles.msgInput}></textarea>
                                     </div>
                                 </div>
 
