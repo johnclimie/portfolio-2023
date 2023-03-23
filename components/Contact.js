@@ -13,7 +13,6 @@ export default function Contact() {
                         <LightWindowTop title="contact-me.exe"/>
                         <div className={styles.contactWindowContent}>
                             <h1>Contact Me</h1>
-                            <p>you can email me at johnclimie00@gmail.com or you can fill out this form</p>
                             <form className={styles.contactForm}>
                                 <div className={styles.allInputsContainer}>
                                     <div className={styles.inputContainer}>
@@ -27,7 +26,7 @@ export default function Contact() {
                                     </div>
 
                                     <div className={styles.inputContainer}>
-                                        <label htmlFor="msg">msg</label>
+                                        <label htmlFor="msg">msg:</label>
                                         <textarea type="text" id="msg" rows="5"></textarea>
                                     </div>
                                 </div>
