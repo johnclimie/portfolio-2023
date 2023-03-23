@@ -61,11 +61,35 @@
     margin-bottom: .3rem;
 }
 
+.inputContainer input {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px #242424 solid
+}
+
 .inputContainer textarea {
     resize: none;
+    font-family: 'Menlo', sans-serif;
+    border: 1px #242424 solid
 }
 
 .inputContainer input, .inputContainer textarea{
     padding: .2rem;
     font-size: 1rem;
+}
+
+.contactForm button {
+    font-size: 1rem;
+    font-family: 'Menlo', sans-serif;
+    background-color: #FFFFFF;
+    border: 1px #242424 solid;
+    padding: .4rem;
+    border-radius: .6rem;
+}
+
+.contactForm button:hover {
+    background-color: #242424;
+    color: #ffffff;
+    transition: ease .3s;
 }

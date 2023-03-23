@@ -31,7 +31,7 @@ export default function Contact() {
                                     </div>
                                 </div>
 
-                                <button>Submit</button>
+                                <button>submit!</button>
                             </form>
                         </div>
                     </div>
