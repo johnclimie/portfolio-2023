@@ -3,7 +3,7 @@ import styles from '../styles/Contact.module.css'
 import MenuBar from "./MenuBar"
 import LightWindowTop from "./LightWindowTop"
 
-export default function Contact() {
+export default function ContactSection() {
     return (
         <>
             <div className={styles.contact}>
@@ -30,7 +30,6 @@ export default function Contact() {
                                         <textarea type="text" id="msg" rows="5"></textarea>
                                     </div>
                                 </div>
-
                                 <button>submit!</button>
                             </form>
                         </div>
