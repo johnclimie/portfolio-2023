@@ -20,6 +20,7 @@
 .contactWindow {
     max-width: 60rem;
     width: 100%;
+    margin: .8rem;
 }
 
 .contactWindowContent {
