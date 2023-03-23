@@ -11,13 +11,13 @@
 
 .myWorkContent {
     display: flex;
-    flex: 1;
-    max-width: 120rem;
     justify-content: space-around;
     align-items: center;
+    flex: 1;
+    max-width: 120rem;
+    width: 100%;
     padding: .8rem;
 }
-
 
 @media screen and (max-width: 1200px) {
     .myWorkContent {
