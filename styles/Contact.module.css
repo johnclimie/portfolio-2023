@@ -5,6 +5,8 @@
     align-items: center;
     min-height: 100vh;
     height: 100%;
+    background-image: url('../public//background_imgs/stacked-peaks-haikei.svg');
+    background-size: cover
 }
 
 .contactContent {
@@ -22,10 +24,15 @@
 
 .contactWindowContent {
     padding: 2rem 1rem;
+    font-family: 'Menlo', sans-serif;
+    background-color: #FFFFFF;
+    border-bottom-left-radius: .6rem;
+    border-bottom-right-radius: .6rem;
 }
 
 .contactWindowContent h1 {
     font-size: 2rem;
+    margin-bottom: .2rem;
 }
 
 .contactWindowContent p, .contactForm {
