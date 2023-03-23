@@ -19,13 +19,13 @@
     padding: .8rem;
   }
 
-  .aboutMeGrid {
+  .aboutMeContainer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
   }
   
-  .aboutMeTxt {
+  .aboutMeWindow {
     max-width: 45%;
     margin: .5rem;
     display: flex;
@@ -34,7 +34,7 @@
     background-color: #FFFFFF;
   }
 
-  .aboutMeTxtContent {
+  .aboutMeTxt {
     display: flex;
     flex-direction: column;
     padding: 1rem;
@@ -42,20 +42,20 @@
     font-size: 1.5rem;
   }
   
-  .aboutMeTxtContent div {
+  .aboutMeTxt div {
     margin-bottom: 2rem;;
   }
   
-  .aboutMeTxtContent div p {
+  .aboutMeTxt div p {
     margin: .3rem 0;
     font-size: 2.5rem;
   }
 
-  .aboutMeTxtContent p {
+  .aboutMeTxt p {
     font-size: 2rem;
   }
   
-  .skillsFolder {
+  .skillsWindow {
     max-width: 45%;
     width: 100%;
     margin: .5rem;
@@ -72,22 +72,22 @@
   }
   
   @media screen and (max-width: 1200px) {
-    .aboutMeGrid {
+    .aboutMeContainer {
       flex-direction: column;
       justify-content: center;
       align-items: center;
     }
 
-    .aboutMeTxt, .skillsFolder {
+    .aboutMeWindow, .skillsWindow {
       max-width: 75%;
       width: 100%;
     }
 
-    .aboutMeTxtContent div p {
+    .aboutMeTxt div p {
       font-size: 2.5rem;
     }
   
-    .aboutMeTxtContent p {
+    .aboutMeTxt p {
       font-size: 2rem;
     }
 
@@ -97,11 +97,11 @@
   }
 
   @media screen and (max-width: 650px) {
-    .aboutMeTxtContent div p {
+    .aboutMeTxt div p {
       font-size: 1.5rem;
     }
   
-    .aboutMeTxtContent p {
+    .aboutMeTxt p {
       font-size: 1.1rem;
     }
 
