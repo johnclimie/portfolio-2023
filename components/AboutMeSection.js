@@ -8,7 +8,7 @@ import Skill from './Skill';
 export default function AboutMeSection() {
     return (
         <>
-            <section className={styles.aboutMe}>
+            <section className={styles.aboutMe} id="aboutMe">
                 <MenuBar />
                 
                 <div className={styles.aboutMeContent}>

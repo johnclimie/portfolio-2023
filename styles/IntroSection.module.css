@@ -63,12 +63,15 @@
   margin-bottom: 1rem;
 }
 
-.introLinks h2 {
+.introLink {
   margin: 0rem 1rem;
+  color: #FFFFFF;
   font-size: 1.5rem;
+  text-decoration: none;
 }
 
 .resumeLink {
+  color: #FFFFFF;
   font-size: 1.5rem;
   text-decoration: underline;
 }

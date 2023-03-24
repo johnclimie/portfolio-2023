@@ -7,7 +7,7 @@ import Project from './Project';
 export default function MyWorkSection() {
     return (
         <>
-            <section className={styles.myWork}>
+            <section className={styles.myWork} id="myWork">
                 <MenuBar />
 
                 <div className={styles.myWorkContent}>

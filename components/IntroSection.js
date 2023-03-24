@@ -1,5 +1,7 @@
 import styles from "../styles/IntroSection.module.css";
 
+import Link from "next/link";
+
 import DarkWindowTop from "./DarkWindowTop";
 
 export default function IntroSection() {
@@ -16,11 +18,11 @@ export default function IntroSection() {
                         <hr />
 
                         <div className={styles.introLinks}>
-                            <h2>About Me</h2>
-                            <h2>My Work</h2>
-                            <h2>Contact</h2>
+                            <Link href="#aboutMe" className={styles.introLink} scroll={false}>About Me</Link>
+                            <Link href="#myWork" className={styles.introLink} scroll={false}>My Work</Link>
+                            <Link href="#contact" className={styles.introLink} scroll={false}>Contact</Link>
                         </div>
-                        <h2 className={styles.resumeLink}>Resume</h2>
+                        <Link href="https://www.google.com" className={styles.resumeLink}>Resume</Link>
                     </div>
                 </div>
             </section>

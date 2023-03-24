@@ -6,7 +6,7 @@ import MenuBar from "./MenuBar";
 export default function ContactSection() {
     return (
         <>
-            <div className={styles.contact}>
+            <div className={styles.contact} id="contact">
                 <MenuBar />
                 <div className={styles.contactContent}>
                     <div className={styles.contactWindow}>
