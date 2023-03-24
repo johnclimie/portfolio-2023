@@ -1,6 +1,10 @@
 import styles from '../styles/MenuBar.module.css';
 
 export default function MenuBar() {
+    const currentTime = new Date;
+
+    console.log(currentTime.getHours());
+
     return (
         <>
             <div className={styles.menuBar}>
