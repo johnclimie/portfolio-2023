@@ -3,9 +3,8 @@ import styles from '../styles/MenuBar.module.css';
 export default function MenuBar() {
 
     function getTime() {
-        let days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
-        let months = ['January','February','March','April','May','June','July','August','September','October','November','December']
-
+        let days = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+        let months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
         let currentDate = new Date();
         let day = days[ currentDate.getDay() ];
         let month = months[ currentDate.getMonth() ];
@@ -30,7 +29,7 @@ export default function MenuBar() {
                 </div>
 
                 <div className={styles.menuTime}>
-                <p>Wed Jan 4 2:16 PM</p>
+                <p>{getTime()}</p>
                 </div>
             </div>
         </>
