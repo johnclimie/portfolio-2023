@@ -1,10 +1,26 @@
 import styles from '../styles/MenuBar.module.css';
 
 export default function MenuBar() {
-    const currentTime = new Date;
 
-    console.log(currentTime.getHours());
+    function getTime() {
+        let days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+        let months = ['January','February','March','April','May','June','July','August','September','October','November','December']
 
+        let currentDate = new Date();
+        let day = days[ currentDate.getDay() ];
+        let month = months[ currentDate.getMonth() ];
+        let dayOfMonth = currentDate.getUTCDate();
+        let hours = currentDate.getHours();
+        let mins = currentDate.getMinutes();
+        let ampm = hours >= 12? 'PM' : 'AM';
+        hours = hours % 12;
+        hours = hours ? hours : 12;
+        mins = mins < 10 ? `0${mins}` : mins;
+        var currentTime = `${day} ${month} ${dayOfMonth} ${hours}:${mins} ${ampm}`
+        return currentTime
+    }
+
+    console.log(getTime());
     return (
         <>
             <div className={styles.menuBar}>
