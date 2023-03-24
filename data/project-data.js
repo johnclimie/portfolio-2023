@@ -23,4 +23,4 @@ export default [
         demo: 'https://www.google.com/',
         src: 'https://www.google.com/'
     }
-]
+];

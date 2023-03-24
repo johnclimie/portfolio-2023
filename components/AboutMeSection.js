@@ -1,9 +1,9 @@
-import styles from '../styles/AboutMeSection.module.css'
-import skillData from '../data/skill-data'
+import styles from '../styles/AboutMeSection.module.css';
+import skillData from '../data/skill-data';
 
-import MenuBar from './MenuBar'
-import LightWindowTop from './LightWindowTop'
-import Skill from './Skill'
+import LightWindowTop from './LightWindowTop';
+import MenuBar from './MenuBar';
+import Skill from './Skill';
 
 export default function AboutMeSection() {
     return (
@@ -43,4 +43,4 @@ export default function AboutMeSection() {
             </section>
         </>
     )
-}
+};

@@ -1,5 +1,6 @@
-import DarkWindowTop from "./DarkWindowTop";
 import styles from "../styles/IntroSection.module.css";
+
+import DarkWindowTop from "./DarkWindowTop";
 
 export default function IntroSection() {
     return (
@@ -25,4 +26,4 @@ export default function IntroSection() {
             </section>
         </>
     )
-}
+};

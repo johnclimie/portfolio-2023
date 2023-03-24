@@ -1,4 +1,4 @@
-import styles from '../styles/MenuBar.module.css'
+import styles from '../styles/MenuBar.module.css';
 
 export default function MenuBar() {
     return (
@@ -15,4 +15,4 @@ export default function MenuBar() {
             </div>
         </>
     )
-}
+};

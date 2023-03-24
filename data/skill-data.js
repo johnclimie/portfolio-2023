@@ -39,6 +39,4 @@ export default [
         name: 'MongoDBunq9',
         src: '/skill_imgs/mongo.png'
     },
-
-]
-
+];

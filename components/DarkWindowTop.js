@@ -1,4 +1,4 @@
-import styles from '../styles/WindowTop.module.css'
+import styles from '../styles/WindowTop.module.css';
 
 export default function DarkWindowTop({ title }) {
     return (
@@ -22,4 +22,4 @@ export default function DarkWindowTop({ title }) {
             </div>
         </>
     )
-}
+};

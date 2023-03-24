@@ -1,9 +1,9 @@
 import Head from 'next/head';
-import IntroSection from '../components/IntroSection';
-import AboutMeSection from '../components/AboutMeSection';
-import MyWorkSection from '../components/MyWorkSection';
-import ContactSection from '../components/ContactSection.js';
 
+import AboutMeSection from '../components/AboutMeSection';
+import ContactSection from '../components/ContactSection.js';
+import IntroSection from '../components/IntroSection';
+import MyWorkSection from '../components/MyWorkSection';
 
 export default function Home() {
   return (
@@ -22,4 +22,4 @@ export default function Home() {
       </main>
     </>
   )
-}
+};

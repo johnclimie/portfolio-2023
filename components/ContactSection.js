@@ -1,7 +1,7 @@
-import styles from '../styles/Contact.module.css'
+import styles from '../styles/Contact.module.css';
 
-import MenuBar from "./MenuBar"
-import LightWindowTop from "./LightWindowTop"
+import LightWindowTop from "./LightWindowTop";
+import MenuBar from "./MenuBar";
 
 export default function ContactSection() {
     return (
@@ -38,4 +38,4 @@ export default function ContactSection() {
             </div>
         </>
     )
-}
+};

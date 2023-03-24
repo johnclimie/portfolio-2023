@@ -1,4 +1,5 @@
 import Image from "next/image";
+
 import styles from '../styles/Skill.module.css';
 
 export default function Skill({ imgSrc, skill }) {
@@ -11,10 +12,10 @@ export default function Skill({ imgSrc, skill }) {
                     width="1600"
                     height="1600"
                     className={styles.skillImg}
-                    alt=""
+                    alt={skill}
                 />
                 <p>{skill}</p>
             </div>
         </>
     )
-}
+};

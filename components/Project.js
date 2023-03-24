@@ -1,5 +1,7 @@
 import styles from '../styles/Project.module.css';
+
 import Image from 'next/image';
+
 import DarkWindowTop from './DarkWindowTop.js';
 
 export default function Project({ title, imgSrc, desc, stack, demo, src, }) {
@@ -36,4 +38,4 @@ export default function Project({ title, imgSrc, desc, stack, demo, src, }) {
             </div>
         </>
     )
-}
+};
