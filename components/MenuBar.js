@@ -19,17 +19,16 @@ export default function MenuBar() {
         return currentTime
     }
 
-    console.log(getTime());
     return (
         <>
             <div className={styles.menuBar}>
                 <div className={styles.menuId}>
-                <p>JC</p>
-                <p>About Me</p>
+                    <p>JC</p>
+                    <p>About Me</p>
                 </div>
 
                 <div className={styles.menuTime}>
-                <p>{getTime()}</p>
+                    <p>{getTime()}</p>
                 </div>
             </div>
         </>

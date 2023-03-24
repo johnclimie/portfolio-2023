@@ -1,6 +1,7 @@
 import styles from '../styles/Project.module.css';
 
 import Image from 'next/image';
+import Link from 'next/link';
 
 import DarkWindowTop from './DarkWindowTop.js';
 
@@ -31,8 +32,8 @@ export default function Project({ title, imgSrc, desc, stack, demo, src, }) {
                                 })}
                             </ul>
                         </div>
-                        <li><a href={demo} target="_blank" rel="noreferrer">demo <span>🚀</span></a></li>
-                        <li><a href={src} target="_blank" rel="noreferrer">source <span>📁</span></a></li>
+                        <li><Link href={demo} target="_blank" rel="noreferrer" class={styles.projectLink}>demo <span>🚀</span></Link></li>
+                        <li><Link href={src} target="_blank" rel="noreferrer" class={styles.projectLink}>source <span>📁</span></Link></li>
                     </ul>
                 </div>
             </div>
