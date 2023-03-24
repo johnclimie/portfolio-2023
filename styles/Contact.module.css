@@ -90,6 +90,19 @@
 
 .contactForm button:hover {
     background-color: #242424;
-    color: #ffffff;
+    color: #FFFFFF;
     transition: ease .3s;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 1rem;
+    font-family: 'Menlo', sans-serif;
+    background-color: #242424;
+    color: #FFFFFF;
+    padding: .5rem 0rem;
 }

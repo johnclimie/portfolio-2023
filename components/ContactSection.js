@@ -35,6 +35,12 @@ export default function ContactSection() {
                         </div>
                     </div>
                 </div>
+                <div className={styles.footer}>
+                    <p>&copy; {new Date().getFullYear()} Created by John Climie. All Rights Reserved</p>
+                    <div>
+                        
+                    </div>
+                </div>
             </div>
         </>
     )

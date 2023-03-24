@@ -32,8 +32,8 @@ export default function Project({ title, imgSrc, desc, stack, demo, src, }) {
                                 })}
                             </ul>
                         </div>
-                        <li><Link href={demo} target="_blank" rel="noreferrer" class={styles.projectLink}>demo <span>🚀</span></Link></li>
-                        <li><Link href={src} target="_blank" rel="noreferrer" class={styles.projectLink}>source <span>📁</span></Link></li>
+                        <li><Link href={demo} target="_blank" rel="noreferrer" className={styles.projectLink}>demo <span>🚀</span></Link></li>
+                        <li><Link href={src} target="_blank" rel="noreferrer" className={styles.projectLink}>source <span>📁</span></Link></li>
                     </ul>
                 </div>
             </div>
