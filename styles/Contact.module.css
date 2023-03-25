@@ -106,3 +106,9 @@
     color: #FFFFFF;
     padding: .5rem 0rem;
 }
+
+.socialIcons {
+    display: flex;
+    flex-direction: row;
+    margin: .5rem 0rem;
+}

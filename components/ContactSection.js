@@ -1,7 +1,10 @@
 import styles from '../styles/Contact.module.css';
 
+import Image from 'next/image';
+
 import LightWindowTop from "./LightWindowTop";
 import MenuBar from "./MenuBar";
+import Link from 'next/link';
 
 export default function ContactSection() {
     return (
@@ -36,10 +39,25 @@ export default function ContactSection() {
                     </div>
                 </div>
                 <div className={styles.footer}>
-                    <p>&copy; {new Date().getFullYear()} Created by John Climie. All Rights Reserved.</p>
-                    <div>
-                        
+                    <div className={styles.socialIcons}>
+                        <Link href="https://github.com/johnclimie" legacyBehavior>
+                            {/* <a target="_blank"> */}
+                                <Image src="/social_svgs/github.svg"
+                                    width="40"
+                                    height="40"
+                                    alt="GitHub SVG"
+                                />
+                            {/* </a> */}
+                        </Link>
+
+                        <Image
+                            src="/social_svgs/linkedin.svg"
+                            width="40"
+                            height="40"
+                            alt="LinkedIn SVG"
+                        />
                     </div>
+                    <p>&copy; {new Date().getFullYear()} Created by John Climie. All Rights Reserved.</p>
                 </div>
             </div>
         </>
