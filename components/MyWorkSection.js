@@ -8,7 +8,7 @@ export default function MyWorkSection() {
     return (
         <>
             <section className={styles.myWork} id="myWork">
-                <MenuBar />
+                <MenuBar section="My Work" />
 
                 <div className={styles.myWorkContent}>
                     {projectData.map(project => {

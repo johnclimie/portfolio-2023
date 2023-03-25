@@ -1,6 +1,6 @@
 import styles from '../styles/MenuBar.module.css';
 
-export default function MenuBar() {
+export default function MenuBar({ section }) {
 
     function getTime() {
         let days = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
@@ -24,7 +24,7 @@ export default function MenuBar() {
             <div className={styles.menuBar}>
                 <div className={styles.menuId}>
                     <p>JC</p>
-                    <p>About Me</p>
+                    <p>{section}</p>
                 </div>
 
                 <div className={styles.menuTime}>

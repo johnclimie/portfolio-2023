@@ -9,7 +9,7 @@ export default function AboutMeSection() {
     return (
         <>
             <section className={styles.aboutMe} id="aboutMe">
-                <MenuBar />
+                <MenuBar section="About me" />
                 
                 <div className={styles.aboutMeContent}>
                     <div className={styles.aboutMeContainer}>

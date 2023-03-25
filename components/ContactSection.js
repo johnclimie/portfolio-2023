@@ -7,7 +7,7 @@ export default function ContactSection() {
     return (
         <>
             <div className={styles.contact} id="contact">
-                <MenuBar />
+                <MenuBar section="Contact" />
                 <div className={styles.contactContent}>
                     <div className={styles.contactWindow}>
                         <LightWindowTop title="contact-me.exe"/>
@@ -36,7 +36,7 @@ export default function ContactSection() {
                     </div>
                 </div>
                 <div className={styles.footer}>
-                    <p>&copy; {new Date().getFullYear()} Created by John Climie. All Rights Reserved</p>
+                    <p>&copy; {new Date().getFullYear()} Created by John Climie. All Rights Reserved.</p>
                     <div>
                         
                     </div>
