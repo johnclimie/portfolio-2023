@@ -40,22 +40,22 @@ export default function ContactSection() {
                 </div>
                 <div className={styles.footer}>
                     <div className={styles.socialIcons}>
-                        <Link href="https://github.com/johnclimie" legacyBehavior>
-                            {/* <a target="_blank"> */}
-                                <Image src="/social_svgs/github.svg"
-                                    width="40"
-                                    height="40"
-                                    alt="GitHub SVG"
-                                />
-                            {/* </a> */}
-                        </Link>
+                        <a href="https://github.com/johnclimie" target="_blank">
+                            <Image src="/social_svgs/github.svg"
+                                width="40"
+                                height="40"
+                                alt="GitHub SVG"
+                            />
+                        </a>
 
-                        <Image
-                            src="/social_svgs/linkedin.svg"
-                            width="40"
-                            height="40"
-                            alt="LinkedIn SVG"
-                        />
+                        <a href="https://www.linkedin.com/in/john-climie-a0856b21a/" target="_blank">
+                            <Image
+                                src="/social_svgs/linkedin.svg"
+                                width="40"
+                                height="40"
+                                alt="LinkedIn SVG"
+                            />
+                        </a>
                     </div>
                     <p>&copy; {new Date().getFullYear()} Created by John Climie. All Rights Reserved.</p>
                 </div>
