@@ -4,7 +4,6 @@ import Image from 'next/image';
 
 import LightWindowTop from "./LightWindowTop";
 import MenuBar from "./MenuBar";
-import Link from 'next/link';
 
 export default function ContactSection() {
     return (
