@@ -1,7 +1,7 @@
 import Head from 'next/head';
 
 import AboutMeSection from '../components/AboutMeSection';
-import ContactSection from '../components/ContactSection.js';
+import ContactMeSection from '../components/ContactMeSection.js';
 import IntroSection from '../components/IntroSection';
 import MyWorkSection from '../components/MyWorkSection';
 
@@ -18,7 +18,7 @@ export default function Home() {
         <IntroSection />
         <AboutMeSection />
         <MyWorkSection />
-        <ContactSection />
+        <ContactMeSection />
       </main>
     </>
   )

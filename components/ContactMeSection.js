@@ -1,15 +1,15 @@
-import styles from '../styles/Contact.module.css';
+import styles from '../styles/ContactMeSection.module.css';
 
 import Image from 'next/image';
 
 import LightWindowTop from "./LightWindowTop";
 import MenuBar from "./MenuBar";
 
-export default function ContactSection() {
+export default function ContactMeSection() {
     return (
         <>
-            <div className={styles.contact} id="contact">
-                <MenuBar section="Contact" />
+            <div className={styles.contact} id="contactMe">
+                <MenuBar section="Contact Me" />
                 <div className={styles.contactContent}>
                     <div className={styles.contactWindow}>
                         <LightWindowTop title="contact-me.exe"/>

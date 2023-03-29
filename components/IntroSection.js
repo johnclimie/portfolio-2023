@@ -20,7 +20,7 @@ export default function IntroSection() {
                         <div className={styles.introLinks}>
                             <Link href="#aboutMe" className={styles.introLink} scroll={false}>About Me</Link>
                             <Link href="#myWork" className={styles.introLink} scroll={false}>My Work</Link>
-                            <Link href="#contact" className={styles.introLink} scroll={false}>Contact</Link>
+                            <Link href="#contactMe" className={styles.introLink} scroll={false}>Contact Me</Link>
                         </div>
                         <Link href="https://www.google.com" className={styles.resumeLink}>Resume</Link>
                     </div>
