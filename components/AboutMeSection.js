@@ -6,6 +6,16 @@ import MenuBar from './MenuBar';
 import Skill from './Skill';
 
 export default function AboutMeSection() {
+    function getDate() {
+        let currentDate = new Date();
+        let month = currentDate.getMonth();
+        month = parseInt(month) + 1;
+        let date = currentDate.getDate();
+        let year = currentDate.getFullYear();
+
+        return `${month}/${date}/${year}`
+    }
+
     return (
         <>
             <section className={styles.aboutMe} id="aboutMe">
@@ -20,7 +30,7 @@ export default function AboutMeSection() {
                                 <div>
                                     <p>👨‍💻 John J Climie</p>
                                     <p>📍 Atlanta, GA</p>
-                                    <p>📅 1/4/2023</p>
+                                    <p>📅 {getDate()}</p>
                                 </div>
 
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
