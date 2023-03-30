@@ -10,98 +10,98 @@
 }
 
 .aboutMeContent {
-    display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  max-width: 120rem;
+  width: 100%;
+  padding: .8rem;
+}
+
+.aboutMeContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.aboutMeWindow {
+  display: flex;
+  flex-direction: column;
+  max-width: 45%;
+  margin: .5rem;
+  border-radius: .6rem;
+  background-color: #FFFFFF;
+}
+
+.aboutMeTxt {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-family: "Menlo", sans-serif;
+}
+
+.aboutMeTxt div {
+  margin-bottom: 2rem;;
+}
+
+.aboutMeTxt div p {
+  margin: .3rem 0;
+  font-size: 2.5rem;
+}
+
+.aboutMeTxt p {
+  font-size: 2rem;
+}
+
+.skillsWindow {
+  display: flex;
+  flex-direction: column;
+  max-width: 45%;
+  width: 100%;
+  margin: .5rem;
+  border-radius: .6rem;
+  background-color: #FFFFFF;
+}
+
+.skillsList {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+  .aboutMeContainer {
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex: 1;
-    max-width: 120rem;
+  }
+
+  .aboutMeWindow, .skillsWindow {
+    max-width: 75%;
     width: 100%;
-    padding: .8rem;
   }
 
-  .aboutMeContainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
-  
-  .aboutMeWindow {
-    display: flex;
-    flex-direction: column;
-    max-width: 45%;
-    margin: .5rem;
-    border-radius: .6rem;
-    background-color: #FFFFFF;
-  }
-
-  .aboutMeTxt {
-    display: flex;
-    flex-direction: column;
-    padding: 1rem;
-    font-size: 1.5rem;
-    font-family: "Menlo", sans-serif;
-  }
-  
-  .aboutMeTxt div {
-    margin-bottom: 2rem;;
-  }
-  
   .aboutMeTxt div p {
-    margin: .3rem 0;
     font-size: 2.5rem;
   }
 
   .aboutMeTxt p {
     font-size: 2rem;
   }
-  
-  .skillsWindow {
-    display: flex;
-    flex-direction: column;
-    max-width: 45%;
-    width: 100%;
-    margin: .5rem;
-    border-radius: .6rem;
-    background-color: #FFFFFF;
-  }
-  
+
   .skillsList {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
   }
-  
-  @media screen and (max-width: 1200px) {
-    .aboutMeContainer {
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
+}
 
-    .aboutMeWindow, .skillsWindow {
-      max-width: 75%;
-      width: 100%;
-    }
-
-    .aboutMeTxt div p {
-      font-size: 2.5rem;
-    }
-  
-    .aboutMeTxt p {
-      font-size: 2rem;
-    }
-
-    .skillsList {
-      grid-template-columns: repeat(3, 1fr);
-    }
+@media screen and (max-width: 650px) {
+  .aboutMeTxt div p {
+    font-size: 1.5rem;
   }
 
-  @media screen and (max-width: 650px) {
-    .aboutMeTxt div p {
-      font-size: 1.5rem;
-    }
-  
-    .aboutMeTxt p {
-      font-size: 1.1rem;
-    }
+  .aboutMeTxt p {
+    font-size: 1.1rem;
   }
+}
