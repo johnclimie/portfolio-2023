@@ -1,8 +1,8 @@
-import styles from '../styles/MyWorkSection.module.css';
-import projectData from '../data/project-data';
+import styles from "../styles/MyWorkSection.module.css";
+import projectData from "../data/project-data";
 
 import MenuBar from "./MenuBar";
-import Project from './Project';
+import Project from "./Project";
 
 export default function MyWorkSection() {
     return (

@@ -1,9 +1,9 @@
-import styles from '../styles/Project.module.css';
+import styles from "../styles/Project.module.css";
 
-import Image from 'next/image';
-import Link from 'next/link';
+import Image from "next/image";
+import Link from "next/link";
 
-import DarkWindowTop from './DarkWindowTop.js';
+import DarkWindowTop from "./DarkWindowTop.js";
 
 export default function Project({ title, imgSrc, desc, stack, demo, src, }) {
     return (
@@ -17,7 +17,7 @@ export default function Project({ title, imgSrc, desc, stack, demo, src, }) {
                         width="1600"
                         height="1600"
                         className={styles.projectImg}
-                        alt=""
+                        alt={title + " img"}
                     />
                     <ul className={styles.projectInfo}>
                         <li>title: {title}</li>

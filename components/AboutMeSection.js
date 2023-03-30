@@ -1,9 +1,9 @@
-import styles from '../styles/AboutMeSection.module.css';
-import skillData from '../data/skill-data';
+import styles from "../styles/AboutMeSection.module.css";
+import skillData from "../data/skill-data";
 
-import LightWindowTop from './LightWindowTop';
-import MenuBar from './MenuBar';
-import Skill from './Skill';
+import LightWindowTop from "./LightWindowTop";
+import MenuBar from "./MenuBar";
+import Skill from "./Skill";
 
 export default function AboutMeSection() {
     function getDate() {

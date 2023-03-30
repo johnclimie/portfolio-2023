@@ -1,6 +1,6 @@
-import styles from '../styles/ContactMeSection.module.css';
+import styles from "../styles/ContactMeSection.module.css";
 
-import Image from 'next/image';
+import Image from "next/image";
 
 import LightWindowTop from "./LightWindowTop";
 import MenuBar from "./MenuBar";

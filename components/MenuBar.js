@@ -1,17 +1,17 @@
-import styles from '../styles/MenuBar.module.css';
+import styles from "../styles/MenuBar.module.css";
 
 export default function MenuBar({ section }) {
 
     function getTime() {
-        let days = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
-        let months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
+        let days = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+        let months = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]
         let currentDate = new Date();
         let day = days[ currentDate.getDay() ];
         let month = months[ currentDate.getMonth() ];
         let dayOfMonth = currentDate.getUTCDate();
         let hours = currentDate.getHours();
         let mins = currentDate.getMinutes();
-        let ampm = hours >= 12? 'PM' : 'AM';
+        let ampm = hours >= 12? "PM" : "AM";
         hours = hours % 12;
         hours = hours ? hours : 12;
         mins = mins < 10 ? `0${mins}` : mins;
