@@ -15,24 +15,24 @@ export default function ContactMeSection() {
                         <LightWindowTop title="contact-me.exe"/>
                         <div className={styles.contactWindowContent}>
                             <h1>Contact Me</h1>
-                            <form className={styles.contactForm}>
+                            <form className={styles.contactForm} action="https://getform.io/f/f8531273-b7bc-40bd-9260-c90d9dff4946" method="POST">
                                 <div className={styles.allInputsContainer}>
                                     <div className={styles.inputContainer}>
                                         <label htmlFor="name">name:</label>
-                                        <input type="text" id="name"></input>
+                                        <input type="text" name="name"></input>
                                     </div>
 
                                     <div className={styles.inputContainer}>
                                         <label htmlFor="email">email:</label>
-                                        <input type="text" id="email"></input>
+                                        <input type="text" name="email"></input>
                                     </div>
 
                                     <div className={styles.inputContainer}>
                                         <label htmlFor="msg">msg:</label>
-                                        <textarea type="text" id="msg" rows="5"></textarea>
+                                        <textarea type="text" name="message" rows="5"></textarea>
                                     </div>
                                 </div>
-                                <button>submit!</button>
+                                <button type="submit">submit!</button>
                             </form>
                         </div>
                     </div>
