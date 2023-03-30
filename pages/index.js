@@ -1,9 +1,9 @@
-import Head from 'next/head';
+import Head from "next/head";
 
-import AboutMeSection from '../components/AboutMeSection';
-import ContactMeSection from '../components/ContactMeSection.js';
-import IntroSection from '../components/IntroSection';
-import MyWorkSection from '../components/MyWorkSection';
+import AboutMeSection from "../components/AboutMeSection";
+import ContactMeSection from "../components/ContactMeSection.js";
+import IntroSection from "../components/IntroSection";
+import MyWorkSection from "../components/MyWorkSection";
 
 export default function Home() {
   return (
