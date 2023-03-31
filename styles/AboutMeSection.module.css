@@ -67,13 +67,16 @@
   width: 100%;
   margin: .5rem;
   border-radius: .6rem;
+  font-size: 1.2rem;
+  font-family: "Menlo", sans-serif;
   background-color: #FFFFFF;
 }
 
 .skillsList {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 10px;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+  padding: .8rem;
 }
 
 @media screen and (max-width: 1200px) {
@@ -86,14 +89,6 @@
   .aboutMeWindow, .skillsWindow {
     max-width: 75%;
     width: 100%;
-  }
-
-  .aboutMeTxt div p {
-    font-size: 2.5rem;
-  }
-
-  .aboutMeTxt p {
-    font-size: 2rem;
   }
 
   .skillsList {

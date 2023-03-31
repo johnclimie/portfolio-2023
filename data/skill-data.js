@@ -4,39 +4,35 @@ export default [
         src: "/skill_imgs/mongo.png"
     },
     {
-        name: "MongoDBunq",
-        src: "/skill_imgs/mongo.png"
+        name: "Express.js",
+        src: "/skill_imgs/express.png"
     },
     {
-        name: "MongoDBunq2",
-        src: "/skill_imgs/mongo.png"
+        name: "React",
+        src: "/skill_imgs/react.png"
     },
     {
-        name: "MongoDBunq3",
-        src: "/skill_imgs/mongo.png"
+        name: "Node.js",
+        src: "/skill_imgs/Node.png"
     },
     {
-        name: "MongoDBunq4",
-        src: "/skill_imgs/mongo.png"
+        name: "Git",
+        src: "/skill_imgs/git.png"
     },
     {
-        name: "MongoDBunq5",
-        src: "/skill_imgs/mongo.png"
+        name: "Next.js",
+        src: "/skill_imgs/next.png"
     },
     {
-        name: "MongoDBunq6",
-        src: "/skill_imgs/mongo.png"
+        name: "HTML",
+        src: "/skill_imgs/html.png"
     },
     {
-        name: "MongoDBunq7",
-        src: "/skill_imgs/mongo.png"
+        name: "CSS",
+        src: "/skill_imgs/css.png"
     },
     {
-        name: "MongoDBunq8",
-        src: "/skill_imgs/mongo.png"
-    },
-    {
-        name: "MongoDBunq9",
-        src: "/skill_imgs/mongo.png"
+        name: "JavaScript",
+        src: "/skill_imgs/javascript.png"
     },
 ];
