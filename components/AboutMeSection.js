@@ -33,7 +33,8 @@ export default function AboutMeSection() {
                                     <p>📅 {getDate()}</p>
                                 </div>
 
-                                <p>I’m John Climie, a MERN stack web developer, student, and music enjoyer. I create websites and my own personal projects in my freetime. Currently, I mainly focus on front-end development, however I am expanding my skills into back-end development. In April of 2022, I achieved a certificate in full-stack web development from Georgia Tech. I am also currently an IT Student at Middle Georgia State University. </p>
+                                <p>I’m <span>John Climie</span>, a <span>full-stack web developer</span> that specializes in the MERN stack. I am currently located in <span>Atlanta, Georgia</span>. I hold a certificate from Georgia Tech for full-stack web development, and currently I am a <span>student</span> at Middle Georgia State University, majoring in Information Technology.</p>
+                                <p>In my freetime, I enjoy working on personal projects, listening to music, and going to concerts. It’s always fun to take inspiration from my life experiences and my environement to see what I can create. I am constantly trying to push myself to learn and create more and more.</p>
                             </div>
                         </div>
 

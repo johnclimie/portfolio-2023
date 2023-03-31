@@ -52,7 +52,12 @@
 }
 
 .aboutMeTxt p {
-  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+}
+
+.aboutMeTxt p span {
+  font-weight: bold; 
 }
 
 .skillsWindow {
