@@ -1,4 +1,5 @@
 .projectContainer {
+    align-self: stretch;
     max-width: 31%;
     background-color: #2E2E2E;
     color: #FFFFFF;
@@ -44,6 +45,7 @@
 
 @media screen and (max-width: 1200px) {
     .projectContainer {
+        align-self: auto;
         max-width: 75%;
     }
 }

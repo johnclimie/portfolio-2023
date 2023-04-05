@@ -11,11 +11,13 @@ export default function MyWorkSection() {
                 <MenuBar section="My Work" />
 
                 <div className={styles.myWorkContent}>
-                    {projectData.map(project => {
-                        return (
-                            <Project title={project.title} imgSrc={project.imgSrc} desc={project.desc} stack={project.stack} demo={project.demo} src={project.src} key={project.title} />
-                        )
-                    })}
+                    <div className={styles.projectsContainer}>
+                        {projectData.map(project => {
+                            return (
+                                <Project title={project.title} imgSrc={project.imgSrc} desc={project.desc} stack={project.stack} demo={project.demo} src={project.src} key={project.title} />
+                            )
+                        })}
+                    </div>
                 </div>
             </section>
         </>

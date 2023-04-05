@@ -11,16 +11,24 @@
 
 .myWorkContent {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     flex: 1;
+}
+
+.projectsContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     max-width: 120rem;
+    min-height: 40%;
     width: 100%;
     padding: .8rem;
 }
 
 @media screen and (max-width: 1200px) {
-    .myWorkContent {
+    .projectsContainer {
         flex-direction: column;
+        justify-content: center;
     }
 }
