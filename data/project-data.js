@@ -13,12 +13,12 @@ export default [
         desc: "It’s common practice for developers to have a portfolio displaying their biography, skills, and projects in order to help gain exposure. Therefore, I have created this portfolio, which you are viewing right now. I went for a simple, monochromatic design, which also resembles Apple's macOS software. I am extremely happy with what I have created, as this is what I envisioned I would want my portfolio to look like.",
         stack: ["Next.js", "Node.js", "CSS"],
         demo: "https://www.google.com/",
-        src: "https://www.google.com/"
+        src: "https://github.com/johnclimie/portfolio-2023"
     },
     {
         title: "E-commerce Web Page",
         imgSrc: "/project_imgs/ecommerceWebPage.png",
-        desc: "Lorem ipsum dolor sit amet. Vel odit quidem qui cupiditate nesciunt ut officia beatae! Ea rerum illum aut aliquam temporibus et perspiciatis nesciunt est veniam voluptas ab fugit similique est iste perferendis! Et dolorum recusandae ex cumque consequatur eos quam ipsam. Non alias nesciunt quo accusamus magni qui eius explicabo sit consectetur vitae qui repellendus illo est enim doloremque ut esse excepturi.",
+        desc: "For this project, I wanted to practice using HTML and CSS in terms of using minimal design. Therefore, I did my best to replicate a page from Urban Outfitters. I have also used vanilla JavaScript in order to provide functionality to the website, such as selecting size, colors, and changing images. I am very happy with the work that I have done, allowing me to gain more experience in front-end development.",
         stack: ["HTML", "CSS", "JavaScript"],
         demo: "https://johnclimie.github.io/ecommerce-front-end-practice/",
         src: "https://github.com/johnclimie/ecommerce-front-end-practice"
