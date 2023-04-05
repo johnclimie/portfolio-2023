@@ -22,7 +22,7 @@ export default function IntroSection() {
                             <Link href="#myWork" className={styles.introLink} scroll={false}>My Work</Link>
                             <Link href="#contactMe" className={styles.introLink} scroll={false}>Contact Me</Link>
                         </div>
-                        <Link href="https://www.google.com" target="_blank" rel="noreferrer" className={styles.resumeLink}>Resume</Link>
+                        <Link href="https://drive.google.com/file/d/12XxWj05Wc9v-xiyjNBU9bTlpEjhNN8_d/view?usp=sharing" target="_blank" rel="noreferrer" className={styles.resumeLink}>Resume</Link>
                     </div>
                 </div>
             </section>
