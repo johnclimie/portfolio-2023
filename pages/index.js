@@ -18,6 +18,7 @@ export default function Home() {
         <meta property="og:title" content="John Climie | Full-Stack Web Developer" />
         <meta property="og:description" content="View John's portfolio here" />
         <meta property="og:image" content="/project_imgs/personalPortfolio.png" />
+        <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <main>
         <IntroSection />
