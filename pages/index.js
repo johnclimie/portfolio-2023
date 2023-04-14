@@ -1,5 +1,7 @@
+// Import Head component from Next.js
 import Head from "next/head";
 
+// Import section components
 import AboutMeSection from "../components/AboutMeSection";
 import ContactMeSection from "../components/ContactMeSection.js";
 import IntroSection from "../components/IntroSection";
@@ -13,6 +15,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/images/favicon.ico" />
 
+        {/* Renders social sharing for links */}
         <meta property="og:url" content="" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="John Climie | Full-Stack Web Developer" />
@@ -20,6 +23,8 @@ export default function Home() {
         <meta property="og:image" content="/project_imgs/personalPortfolio.png" />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
+
+      {/* Renders each section on page */}
       <main>
         <IntroSection />
         <AboutMeSection />

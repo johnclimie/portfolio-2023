@@ -1,3 +1,4 @@
+// Imports CSS
 import styles from "../styles/ContactMeSection.module.css";
 
 import Image from "next/image";
@@ -6,6 +7,7 @@ import LightWindowTop from "./LightWindowTop";
 import MenuBar from "./MenuBar";
 
 export default function ContactMeSection() {
+    // Renders contact me section with contact form and footer
     return (
         <>
             <div className={styles.contact} id="contactMe">

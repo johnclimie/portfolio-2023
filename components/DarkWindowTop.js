@@ -1,6 +1,8 @@
+// Imports CSS
 import styles from "../styles/WindowTop.module.css";
 
 export default function DarkWindowTop({ title }) {
+    // Renders top of window in dark color scheme
     return (
         <>
             <div className={styles.darkWindowTop}>

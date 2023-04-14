@@ -1,11 +1,14 @@
+// Imports CSS and data
 import styles from "../styles/AboutMeSection.module.css";
 import skillData from "../data/skill-data";
 
+// Imports Components
 import LightWindowTop from "./LightWindowTop";
 import MenuBar from "./MenuBar";
 import Skill from "./Skill";
 
 export default function AboutMeSection() {
+    // Renders current date
     function getDate() {
         let currentDate = new Date();
         let month = currentDate.getMonth();
@@ -16,6 +19,7 @@ export default function AboutMeSection() {
         return `${month}/${date}/${year}`
     }
 
+    // Renders about me section
     return (
         <>
             <section className={styles.aboutMe} id="aboutMe">
@@ -41,6 +45,7 @@ export default function AboutMeSection() {
                         <div className={styles.skillsWindow}>
                             <LightWindowTop title={"📁 Skills"}/>
 
+                            {/* Renders each skill */}
                             <div className={styles.skillsList}>
                                 {skillData.map(skill => {
                                     return ( 
