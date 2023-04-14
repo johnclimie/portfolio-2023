@@ -5,7 +5,7 @@
   align-items: center;
   min-height: 100vh;
   height: 100%;
-  background-image: url("../public/background_imgs/AboutMeBackground.svg");
+  background-image: url("../public/background_svgs/AboutMeBackground.svg");
   background-size: cover;
 }
 
