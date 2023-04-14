@@ -1,10 +1,14 @@
+// Imports CSS
 import styles from "../styles/IntroSection.module.css";
 
+// Imports link component from Next.js
 import Link from "next/link";
 
+// Imports component
 import DarkWindowTop from "./DarkWindowTop";
 
 export default function IntroSection() {
+    // Renders intro section with anchor links, along with an animated gradient background
     return (
         <>
             <section className={styles.intro}>

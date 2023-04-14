@@ -2,7 +2,7 @@
 import styles from "../styles/AboutMeSection.module.css";
 import skillData from "../data/skill-data";
 
-// Imports Components
+// Imports components
 import LightWindowTop from "./LightWindowTop";
 import MenuBar from "./MenuBar";
 import Skill from "./Skill";
