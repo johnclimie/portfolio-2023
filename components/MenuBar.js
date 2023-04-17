@@ -1,7 +1,8 @@
+// Imports CSS
 import styles from "../styles/MenuBar.module.css";
 
 export default function MenuBar({ section }) {
-
+    // Renders current date and time
     function getTime() {
         let days = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
         let months = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]
@@ -19,6 +20,7 @@ export default function MenuBar({ section }) {
         return currentTime
     }
 
+    // Renders menu bar at the top of each section
     return (
         <>
             <div className={styles.menuBar}>

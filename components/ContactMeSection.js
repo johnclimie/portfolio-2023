@@ -1,8 +1,10 @@
 // Imports CSS
 import styles from "../styles/ContactMeSection.module.css";
 
+// Imports Next.js component
 import Image from "next/image";
 
+// Imports components
 import LightWindowTop from "./LightWindowTop";
 import MenuBar from "./MenuBar";
 

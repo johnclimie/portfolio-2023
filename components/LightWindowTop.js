@@ -1,6 +1,8 @@
+// Imports CSS
 import styles from "../styles/WindowTop.module.css";
 
 export default function LightWindowTop({ title }) {
+    // Renders top of window
     return (
         <>
             <div className={styles.lightWindowTop}>

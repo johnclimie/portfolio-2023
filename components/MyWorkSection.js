@@ -1,10 +1,13 @@
+// Imports CSS and data
 import styles from "../styles/MyWorkSection.module.css";
 import projectData from "../data/project-data";
 
+// Imports components
 import MenuBar from "./MenuBar";
 import Project from "./Project";
 
 export default function MyWorkSection() {
+    // Renders my work section
     return (
         <>
             <section className={styles.myWork} id="myWork">

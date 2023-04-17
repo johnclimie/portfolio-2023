@@ -1,11 +1,15 @@
+// Imports CSS
 import styles from "../styles/Project.module.css";
 
+// Imports Next.js components
 import Image from "next/image";
 import Link from "next/link";
 
+// Imports components
 import DarkWindowTop from "./DarkWindowTop.js";
 
 export default function Project({ title, imgSrc, desc, stack, demo, src, }) {
+    // Renders project that is looped through map function
     return (
         <>
             <div className={styles.projectContainer}>
