@@ -43,7 +43,7 @@ export default function ContactMeSection() {
                 </div>
                 <div className={styles.footer}>
                     <div className={styles.socialIcons}>
-                        <a href="https://github.com/johnclimie" target="_blank">
+                        <a href="https://github.com/johnclimie" target="_blank" rel="noreferrer">
                             <Image src="/social_svgs/github.svg"
                                 width="40"
                                 height="40"
@@ -51,7 +51,7 @@ export default function ContactMeSection() {
                             />
                         </a>
 
-                        <a href="https://www.linkedin.com/in/john-climie-a0856b21a/" target="_blank">
+                        <a href="https://www.linkedin.com/in/john-climie-a0856b21a/" target="_blank" rel="noreferrer">
                             <Image
                                 src="/social_svgs/linkedin.svg"
                                 width="40"

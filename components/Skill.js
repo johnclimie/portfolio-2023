@@ -5,7 +5,7 @@ import styles from "../styles/Skill.module.css";
 import Image from "next/image";
 
 export default function Skill({ imgSrc, skill }) {
-    // Renders skill that is looped through map function
+    // Renders skill that is looped through map functionx
     return (
         <>
             <div className={styles.skillContainer}>
