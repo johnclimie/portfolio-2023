@@ -1,8 +1,11 @@
-import Image from "next/image";
-
+// Imports CSS
 import styles from "../styles/Skill.module.css";
 
+// Imports Next.js component
+import Image from "next/image";
+
 export default function Skill({ imgSrc, skill }) {
+    // Renders skill that is looped through map function
     return (
         <>
             <div className={styles.skillContainer}>
