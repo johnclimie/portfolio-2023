@@ -1,3 +1,4 @@
+// Array for project data
 export default [
     {
         title: "Concert Portfolio",

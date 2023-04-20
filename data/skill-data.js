@@ -1,3 +1,5 @@
+// Array for skill data
+
 export default [
     {
         name: "HTML",
