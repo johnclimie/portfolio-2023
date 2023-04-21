@@ -22,6 +22,9 @@ export default function Home() {
         <meta property="og:description" content="View John's portfolio here" />
         <meta property="og:image" content="/project_imgs/personalPortfolio.png" />
         <meta name="twitter:card" content="summary_large_image" />
+
+        {/* Changes theme color for mobile browsing */}
+        <meta name="theme-color" content="#242424" />
       </Head>
 
       {/* Renders each section on page */}
