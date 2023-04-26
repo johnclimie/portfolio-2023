@@ -62,6 +62,10 @@
 }
 
 @media screen and (max-width: 650px) {
+    .lightWindowTop, .darkWindowTop {
+      font-size: .8rem;
+    }
+
     .red, .yellow, .green {
       height: .6rem;
       width: .6rem;
