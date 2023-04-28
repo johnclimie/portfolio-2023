@@ -13,7 +13,7 @@ export default [
         imgSrc: "/project_imgs/personalPortfolio.png",
         desc: "It’s common practice for developers to have a portfolio displaying their biography, skills, and projects in order to help gain exposure. Therefore, I have created this portfolio, which you are viewing right now. I went for a simple, monochromatic design, which also resembles Apple's macOS software. I am extremely happy with what I have created, as this is what I envisioned I would want my portfolio to look like.",
         stack: ["Next.js", "Node.js", "CSS"],
-        demo: "https://www.google.com/",
+        demo: "https://portfolio-2023-sigma-three.vercel.app/",
         src: "https://github.com/johnclimie/portfolio-2023"
     },
     {
